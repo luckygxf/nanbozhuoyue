@@ -1,0 +1,18 @@
+.topPicture{
+	clear:both;
+	margin:0;
+	background:url('pictures/topPicture.jpg') no-repeat;	
+	background-size:100% 550px;
+	height:550px;
+}
+
+.topPicture .text{
+	color:#ffffff;
+	background-color:#8d8d8c;
+	font-family:"Times New Roman",Georgia,Serif;
+	font-size:200%;
+	display:block;
+	position:absolute;
+	left:220px;
+	top:260px
+}

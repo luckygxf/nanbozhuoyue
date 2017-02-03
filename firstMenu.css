@@ -6,6 +6,7 @@ body{
 /*一级菜单整体样式*/
 .firstMenu{
 	background-color:#333333;
+	height:25;
 	font-family: sans-serif;
 	font-size:115%; 
 	padding:25;
@@ -17,6 +18,8 @@ body{
 	float:left;
 	margin-left:70;
 	margin-top:-5;
+	background:url('pictures/logo.png');
+	background-size:125px 25px;
 }
 
 .topMenuText{
