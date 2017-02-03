@@ -1,0 +1,37 @@
+/*body样式*/
+body{
+	text-align:center;
+	margin:0;
+}
+/*一级菜单整体样式*/
+.firstMenu{
+	background-color:#333333;
+	font-family: sans-serif;
+	font-size:115%; 
+	padding:25;
+}
+/*一级菜单logo样式 */
+.firstMenuLogoStyle{
+	width:125;
+	height:25;
+	float:left;
+	margin-left:70;
+	margin-top:-5;
+}
+
+.topMenuText{
+	color:#ffffff;
+	margin-left:150;
+}
+
+/* 超链接样式 */
+a:link, 
+a:visited { 
+	color:#ffffff; 
+	text-decoration:none; 
+} 
+a:hover, 
+a:active { 
+	color:#ff0000; 
+	text-decoration:none; 
+} 

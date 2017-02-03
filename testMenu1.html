@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+ <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+ <title>Plain Shane Design > CSS Drop Down Demo</title>
+ <style>
+	*{ margin:0px; padding: 0px; } 
+	ul{
+		list-style-type:none;
+	}
+	ul li{
+		float:left;
+		position:relative;
+	}
+	ul li a{
+		text-align: center; 
+		border-right:1px solid #e9e9e9; 
+		padding:20px; 
+		display:block; 
+		text-decoration:none; 
+		color:#999; 
+	}
+	ul li ul{
+		display:none;
+	}
+	ul li:hover ul{
+		display:block;
+		position:absolute;
+	}
+	a:hover{
+		color:#ff0000;
+	}
+ </style>
+</head>
+<body>
+<div id="nav"> 
+	<ul> 
+		<li class="first"><a href="#">Home</a></li> 
+		<li><a href="#">About Me</a></li> 
+		<li>
+			<a href="#">Portfolio</a> 
+			<ul> 
+				<li><a href="#">Web</a></li> 
+				<li><a href="#">Print</a></li> 
+				<li><a href="#">Photos</a></li> 
+			</ul> 
+		</li> 
+		<li>
+			<a href="#">Contact Me</a>
+		</li> 
+	</ul> 
+</div> 
+<div id="threestyles"><a href="http://www.jb51.net" target="_blank"><img 
+src="http://files.jb51.net/demoimg/200912/threestyles.png" /></div>
+</body>
+</html>
