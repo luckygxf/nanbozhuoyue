@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="firstMenu.css" type="text/css" />
 <?php
 	//顶部目录菜单
 	echo '

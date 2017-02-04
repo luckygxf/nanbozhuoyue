@@ -1,0 +1,29 @@
+.foot{
+	background-color:#333333;
+	color:#ffffff;
+	height:120px;
+}
+
+.foot .text{
+	float:left;
+}
+.foot .links{
+	float:left;
+}
+
+.foot .links ul{
+	list-style-type:none;
+}
+
+.foot .links ul li{
+	display:inline;
+}
+
+.foot .bottom{
+	clear:both;
+	height:20px;
+}
+
+.foot .partner{
+	clear:both;
+}
