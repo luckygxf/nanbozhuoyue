@@ -5,9 +5,14 @@
 }
 
 .foot .text{
+	padding-left:200px;
 	float:left;
+	text-align:left;
 }
+
+
 .foot .links{
+	padding-left:150px;
 	float:left;
 }
 
@@ -23,6 +28,7 @@
 	clear:both;
 	height:20px;
 }
+
 
 .foot .partner{
 	width:30px;

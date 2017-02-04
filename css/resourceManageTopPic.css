@@ -1,0 +1,30 @@
+.resourceManageTopPic{
+	clear:both;
+	margin:0;
+	background:url('../pictures/resourceManageTopPic.png') no-repeat;	
+	background-size:100% 550px;
+	height:450px;
+}
+
+.resourceManageTopPic .text{
+	font-family:"Times New Roman",Georgia,Serif;
+	font-size:200%;
+	padding-top:200px;
+	color:#ffffff;
+}
+.secondMenu{
+	background-color:#ffffff;
+	height:300px;
+}
+
+.secondMenu a:link, 
+.secondMenu a:visited { 
+	color:#000000; 
+	text-decoration:none; 
+} 
+.secondMenu a:hover, 
+.secondMenu a:active { 
+	color:#ff0000; 
+	text-decoration:none; 
+} 
+

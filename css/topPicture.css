@@ -1,7 +1,7 @@
 .topPicture{
 	clear:both;
 	margin:0;
-	background:url('pictures/topPicture.jpg') no-repeat;	
+	background:url('../pictures/topPicture.jpg') no-repeat;	
 	background-size:100% 550px;
 	height:450px;
 }
@@ -15,4 +15,12 @@
 	position:absolute;
 	left:220px;
 	top:260px
+}
+
+.pictrueGallery{
+	padding-top:400px;
+	padding-bottom:0px;
+	padding-right:0px;
+	padding-left:900px;
+	height:50px;
 }

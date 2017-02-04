@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="foot.css" type="text/css" />
+<link rel="stylesheet" href="css/foot.css" type="text/css" />
 <?php
 	echo '
 		<div class="foot">
