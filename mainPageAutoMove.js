@@ -28,18 +28,18 @@ function changePos() {
 		yPos = 0; 
 	} 
 	if (yPos >= (height - Hoffset)) { 
-	yon = 0; 
-	yPos = (height - Hoffset); 
+		yon = 0; 
+		yPos = (height - Hoffset); 
 	} 
 	if (xon) { 
-	xPos = xPos + step; 
+		xPos = xPos + step; 
 	} 
 	else { 
-	xPos = xPos - step; 
+		xPos = xPos - step; 
 	} 
 	if (xPos < 0) { 
-	xon = 1; 
-	xPos = 0; 
+		xon = 1; 
+		xPos = 0; 
 	} 
 	if (xPos >= (width - Woffset)) { 
 		xon = 0; 
