@@ -7,15 +7,15 @@
 				<p>邮箱:nbzy@gmmg.com</p>
 				<p>QQ:123456789</p>
 			</div>
-			<div class="foot links">
-				<div >
+			<div>
+				<div class="foot links">
 					<ul>
 						<li><a href="#">项目合作</a> | </li>
 						<li><a href="#">人才招聘</a> | </li>
 						<li><a href="#">联系我们</a>  </li>
 					</ul>
 				</div>
-				<div class="foot partner">
+				<div>
 					合作伙伴 
 					<img src=""/>
 					<img src="pictures/partner2.png"/>
