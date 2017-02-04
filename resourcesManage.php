@@ -15,10 +15,10 @@
 	<div>
 		<div class="secondMenu">
 			< 
-				<a href="#">旅游制定服务</a>  
-				<a href="#">旅游目的管理</a> 
-				<a href="#">旅游APP研发</a>
-				<a href="#">影视APD海外公关</a> 
+				<a href="#">旅游制定服务</a> |   
+				<a href="#">旅游目的管理</a> | 
+				<a href="#">旅游APP研发</a> | 
+				<a href="#">影视APD海外公关</a> | 
 			>
 		</div>
 		<div class="secondMenuConent" id="secondMenuConentDiv">
