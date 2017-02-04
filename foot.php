@@ -7,8 +7,8 @@
 				<p>邮箱:nbzy@gmmg.com</p>
 				<p>QQ:123456789</p>
 			</div>
-			<div>
-				<div class="foot links">
+			<div class="foot links">
+				<div >
 					<ul>
 						<li><a href="#">项目合作</a> | </li>
 						<li><a href="#">人才招聘</a> | </li>
@@ -17,16 +17,20 @@
 				</div>
 				<div>
 					合作伙伴 
-					<img src=""/>
-					<img src="pictures/partner2.png"/>
-					<img src="pictures/partner3.png"/>
-					<img src="pictures/partner4.png"/>
-					<img src="pictures/partner5.png"/>
+					<img src="pictures/partner1.png" class="foot partner"/>
+					<img src="pictures/partner2.png" class="foot partner"/>
+					<img src="pictures/partner3.png" class="foot partner"/>
+					<img src="pictures/partner4.png" class="foot partner"/>
+					<img src="pictures/partner5.png" class="foot partner"/>
 				</div>
 			</div>
 			<div>
-				<span>关注我们</span>
-				<img src="" alt="二维码"/>
+				<div>
+					<span>关注我们</span>
+				</div>
+				<div>
+					<img src="pictures/qrcode.png" alt="二维码" class="foot qrcode"/>
+				</div>
 			</div>
 			<div class="foot bottom">
 				©2017 南博卓越 京ICP证030173号  京公网安备11000002000001号

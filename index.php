@@ -1,6 +1,8 @@
 <html>
-<body>
-<html>
+	<head>
+		<title>Demo</title>
+		<link rel="shortcut icon" href="pictures/favicon.ico">
+	</head>
 <body>
 	<!--
 		<link rel="stylesheet" href="firstMenu.css" type="text/css" />
@@ -17,6 +19,5 @@
 	<?php include 'foot.php'?>
 
 </body>
-</html>
-</body>
+
 </html>
