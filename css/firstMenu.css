@@ -18,7 +18,7 @@ body{
 	float:left;
 	margin-left:70;
 	margin-top:-5;
-	background:url('pictures/logo.png');
+	background:url('../pictures/logo.png');
 	background-size:125px 25px;
 }
 
