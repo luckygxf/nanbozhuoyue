@@ -24,17 +24,20 @@
 					<img src="pictures/partner5.png" class="foot partner"/>
 				</div>
 			</div>
-			<div>
+			<div class="foot connectus">
 				<div>
-					<span>关注我们</span>
+					<p>关注我们</p>
 				</div>
-				<div>
-					<img src="pictures/qrcode.png" alt="二维码" class="foot qrcode"/>
+				<div class="foot qrcode">
+					<img src="pictures/qrcode.png" alt="二维码" />
 				</div>
 			</div>
 			<div class="foot bottom">
-				©2017 南博卓越 京ICP证030173号  京公网安备11000002000001号
+				<p>©2017 南博卓越 京ICP证030173号  京公网安备11000002000001号</p>
 			</div>
+			<!--
+			-->
+			
 		</div>
 	';
 //底部内容

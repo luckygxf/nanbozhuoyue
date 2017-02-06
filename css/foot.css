@@ -1,19 +1,26 @@
 .foot{
 	background-color:#333333;
 	color:#ffffff;
-	height:140px;
+	/**/
+	padding-top:5px;
+	height:150px;
+	margin-top:0px;
+	width:100%;
 }
 
 .foot .text{
-	padding-left:200px;
 	float:left;
-	text-align:left;
+	text-align:center;
+	width:30%;
 }
-
-
 .foot .links{
-	padding-left:150px;
 	float:left;
+	width:40%;
+}
+.foot .connectus{
+	float:left;
+	width:30%;
+	/**/
 }
 
 .foot .links ul{
@@ -26,7 +33,9 @@
 
 .foot .bottom{
 	clear:both;
-	height:20px;
+	height:30px;
+	text-align:center;
+	margin-bottom:0px;
 }
 
 
@@ -36,9 +45,17 @@
 }
 
 .foot .qrcode{
-	clear:both;
-	width:160px;
-	height:120px;
+	height:90px;
 }
+
+.foot .qrcode img{
+	margin-top:-15px;
+	margin-right:-60px;
+	width:200px;
+	height:150px;
+}
+/*
+
+*/
 
 .

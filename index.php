@@ -52,9 +52,7 @@
 		  </div>
 			<div class="icon2"><a href="#" title="下一个" onfocus="this.blur();">下一个</a></div>
 			<div class="clear"></div>
-		</div>
-		
-		
+		</div>		
 	</div>	
 	<?php include 'foot.php'?>
 	<!---->
