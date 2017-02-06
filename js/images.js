@@ -69,10 +69,10 @@ var suningImages = function(){
 				var e = e || window.event ;
 				posx = e.clientX ;
 				if(posx>document.documentElement.clientWidth/2){
-					box.css('cursor','url(http://img.baidu.com/img/image/mousedown.cur),pointer');
+					box.css('cursor','url(../images/right.ico),pointer');
 					box.attr('title','下一页');
 				}else{
-					box.css('cursor','url(http://img.baidu.com/img/image/mousedown.cur),pointer');
+					box.css('cursor','url(../images/left.ico),pointer');
 					box.attr('title','上一页');
 				}
 			});
