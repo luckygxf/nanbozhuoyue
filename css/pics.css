@@ -14,7 +14,7 @@ img{border:0;}
 .button .btn_add a {display:block;width:132px;height:28px;background:url(../images/sprite.gif) no-repeat 0 -123px;}
 .image {width:100%;height:400px;line-height:520px;text-align:center;margin:0 auto;}
 .image img {width:100%;height:400px;overflow:hidden;}
-.switch {width:100%;height:100px;margin:-10px auto;background-color:#333333}
+.switch {width:100%;height:100px;margin:0px auto;background-color:#27303f}
 .clear{clear:both;}
 .icon1{display:inline;width:30px;float:left;padding-top:28px;padding-left:18px;text-indent:-9999px;}
 .icon1 a{display:block;width:30px;height:60px;background:url(../images/left1.jpg); background-size:30px 60px;}
@@ -23,7 +23,7 @@ img{border:0;}
 .icon2 a{display:block;width:30px;height:60px;background:url(../images/right1.jpg);background-size:30px 60px;}
 .icon2 a:hover{background:url(../images/right1s.jpg);background-size:30px 60px;}
 /* Download by http://www.codefans.net */
-.switch_center {float:left;width:90%;height:90px;margin-left:30px;margin-bottom:5px;;overflow:hidden;back:#333333;}
+.switch_center {float:left;width:90%;height:90px;margin-left:30px;margin-bottom:5px;;overflow:hidden;back:#27303f;}
 .switch_center ul {}
 .switch_center li {display:inline;float:left;width:66px;height:66px;margin-right:20px;padding-top:10px;}
 .switch_center li a {display:block;width:60px;height:60px;border:1px solid #ccc;}
