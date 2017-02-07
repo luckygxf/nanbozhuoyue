@@ -8,7 +8,6 @@
 	<!--
 		<link rel="stylesheet" href="firstMenu.css" type="text/css" />
 	-->
-	<link rel="stylesheet" href="css/firstMenu.css" type="text/css" />
 	<link rel="stylesheet" href="css/topPicture.css" type="text/css" />
 	<link href="css/pics.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="js/jquery.js"></script>
@@ -22,11 +21,9 @@
 			</div>
 		</div>
 	-->
+	
 	<div class="Container">
 		<div class="image" id="bigpics" title=""><img src="temp/four_find/s1f.jpg" /></div>
-		<!--
-		temp/four_find/s1f.jpg
-		-->
 		<div class="switch">
 			<div class="icon1"><a href="#" title="上一个" onfocus="this.blur();">上一个</a></div>
 			<div class="switch_center" id="pics">
@@ -55,7 +52,7 @@
 		</div>		
 	</div>	
 	<?php include 'foot.php'?>
-	<!---->
+	
 	<!--<script type="text/javascript" src="mainPageAutoMove.js"></script>-->	
 </body>
 

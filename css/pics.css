@@ -12,8 +12,8 @@ img{border:0;}
 .button .btn_pro a {display:block;width:132px;height:28px;background:url(../images/sprite.gif) no-repeat 0 -94px;}
 .button .btn_add {width:132px;height:28px;text-indent:-9999px;}
 .button .btn_add a {display:block;width:132px;height:28px;background:url(../images/sprite.gif) no-repeat 0 -123px;}
-.image {width:100%;height:320px;line-height:520px;text-align:center;margin:0 auto;}
-.image img {width:100%;height:320px;overflow:hidden;}
+.image {width:100%;height:400px;line-height:520px;text-align:center;margin:0 auto;}
+.image img {width:100%;height:400px;overflow:hidden;}
 .switch {width:100%;height:100px;margin:-10px auto;background-color:#333333}
 .clear{clear:both;}
 .icon1{display:inline;width:30px;float:left;padding-top:28px;padding-left:18px;text-indent:-9999px;}
