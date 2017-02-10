@@ -1,6 +1,5 @@
 <link rel="stylesheet" href="css/topMenu.css" type="text/css" />
 <script type="text/javascript" src="js/topMenu.js"></script>
-<link rel="stylesheet" href="firstMenu.css" type="text/css" />
 <?php
 	//顶部目录菜单
 	echo '
