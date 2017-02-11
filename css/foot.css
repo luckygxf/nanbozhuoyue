@@ -1,7 +1,9 @@
 .foot{background-color:#27303f;padding-top:5px;height:120px;margin:0 auto;width:100%;color:#ffffff;font-size:20px;}
+/*
 
-.foot .text{float:left;text-align:center;width:30%;}
-.foot .links{float:left;	width:40%;text-align:center;}
+*/
+.foot .text{float:left;text-align:center;width:30%;padding:10px 0;}
+.foot .links{float:left;	width:40%;text-align:center;padding:10px 0;}
 
 .foot .connectus{float:left;	width:30%;text-align:center;	/**/}
 
@@ -18,15 +20,9 @@
 
 .foot .qrcode img{margin-top:-10px;	margin-right:-50px;	width:200px;	height:150px;}
 
-/*
+
 .foot a:link, 
-.foot a:visited { 
-	color:#ffffff; 
-	text-decoration:none; 
-} 
+.foot a:visited {color:#ffffff; text-decoration:none; } 
 .foot a:hover, 
-.foot a:active { 
-	color:#ff0000; 
-	text-decoration:none; 
-} 
-*/
+.foot a:active { color:#ff0000; text-decoration:none; } 
+

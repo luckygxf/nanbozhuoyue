@@ -11,23 +11,15 @@ body{
 	font-size:115%; 
 	padding:25;
 }
-/*一级菜单logo样式 */
-.firstMenuLogoStyle{
-	width:125;
-	height:25;
-	float:left;
-	margin-left:70;
-	margin-top:-5;
-	background:url('../pictures/logo.png');
-	background-size:125px 25px;
-}
+
 
 .topMenuText{
 	color:#ffffff;
 	margin-left:150;
 }
 
-/* 超链接样式 */
+/* 超链接样式
+
 a:link, 
 a:visited { 
 	color:#ffffff; 
@@ -38,3 +30,5 @@ a:active {
 	color:#ff0000; 
 	text-decoration:none; 
 } 
+ */
+

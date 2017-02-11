@@ -11,19 +11,19 @@
 	-->
 	<link rel="stylesheet" href="css/main.css" type="text/css" />
 	<link href="css/pics.css" rel="stylesheet" type="text/css" />
-	
+	<link rel="stylesheet" href="css/topPicture.css" type="text/css" />
 	<script src="jquery-1.7.1.min.js" type="text/javascript"></script>
 	
 	<!---->	
 	<script type="text/javascript" src="js/images.js"></script>
 	<?php include 'menu.php';?>
-	<!--
-		<div class="topPicture">	
-			<div class="text" id="mainPageText">
-				旅游资源管理与定制
-			</div>
+
+	<div class="topPicture">	
+		<div class="text" id="mainPageText">
+			旅游资源管理与定制
 		</div>
-	-->
+	</div>
+
 	
 	<div class="Container">
 		<div class="image" id="bigpics" title=""><img src="temp/four_find/s1f.jpg" /></div>
