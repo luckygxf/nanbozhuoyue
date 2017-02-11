@@ -1,16 +1,23 @@
+@CHARSET "UTF-8";
 .resourceManageTopPic{
-	clear:both;
 	margin:0;
-	background:url('../pictures/resourceManageTopPic.png') no-repeat;	
-	background-size:100% 550px;
-	height:450px;
+	height:250px;
+	width:100%;
+	background:url('../pictures/resourceManageTopPic.png') no-repeat ;	
+	background-size:100% 250px;
+	
 }
 
+/*二级菜单*/
+.secondMenuContainer{
+	text-align:center;
+}
 .resourceManageTopPic .text{
 	font-family:"Times New Roman",Georgia,Serif;
-	font-size:200%;
+	font-size:30px;
 	padding-top:200px;
 	color:#ffffff;
+	text-align:center;
 }
 .secondMenu{
 	background-color:#ffffff;
@@ -27,4 +34,5 @@
 	color:#ff0000; 
 	text-decoration:none; 
 } 
+
 

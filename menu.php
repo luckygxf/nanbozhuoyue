@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="css/topMenu.css" type="text/css" />
+<script src="jquery-1.7.1.min.js" type="text/javascript"></script>
 <script type="text/javascript" src="js/topMenu.js"></script>
 <?php
 	//顶部目录菜单
