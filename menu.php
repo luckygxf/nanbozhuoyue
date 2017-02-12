@@ -6,33 +6,32 @@
 -->
 <div class="firstMenu">
 	<div class="firstMenuLogoStyle">
-		
 	</div>
 	<div class="navigation-up">
 		<div class="navigation-inner">
 			<div class="navigation-v3">
 				<ul>
-					<li class="nav-up-selected-inpage" _t_nav="home">
+					<li class="" _t_nav="index" id="test1">
 						<h2>
 							<a href="index.php">首页</a>
 						</h2>
 					</li>
-					<li class="" _t_nav="product">
+					<li class="" _t_nav="resourcesManage" id="test">
 						<h2>
 							<a href="resourcesManage.php">资源管理VS旅行定制</a>
 						</h2>
 					</li>
-					<li class="" _t_nav="wechat">
+					<li class="" _t_nav="internationalBusiness">
 						<h2>
 							<a href="internationalBusiness.php">国际商务</a>
 						</h2>
 					</li>
 					<li class="" _t_nav="mediaSpread">
 						<h2>
-							<a href="medisSpread.php">媒体传播</a>
+							<a href="mediaSpread.php">媒体传播</a>
 						</h2>
 					</li>
-					<li class="" _t_nav="solution">
+					<li class="" _t_nav="aboutCompany">
 						<h2>
 							<a href="aboutCompany.php">关于我们</a>
 						</h2>

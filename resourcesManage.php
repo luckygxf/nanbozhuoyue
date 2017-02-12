@@ -9,9 +9,6 @@
 		<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
 		<script src="js/secondMenu.js" type="text/javascript"></script>
 		<script src="js/showSecondMenuContent.js" type="text/javascript"></script>
-		<script type="text/javascript">
-			
-		</script>
 	</head>
 <body>
 	
