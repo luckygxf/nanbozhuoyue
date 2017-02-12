@@ -24,24 +24,26 @@
 					</li>
 					<li class="" _t_nav="wechat">
 						<h2>
-							<a href="#">国际商务</a>
+							<a href="internationalBusiness.php">国际商务</a>
 						</h2>
 					</li>
 					<li class="" _t_nav="mediaSpread">
 						<h2>
-							<a href="#">媒体传播</a>
+							<a href="medisSpread.php">媒体传播</a>
 						</h2>
 					</li>
 					<li class="" _t_nav="solution">
 						<h2>
-							<a href="#">关于我们</a>
+							<a href="aboutCompany.php">关于我们</a>
 						</h2>
 					</li>
-					<li class="" _t_nav="cooperate">
-						<h2>
-							<a href="#">动态</a>
-						</h2>
-					</li>
+					<!--
+						<li class="" _t_nav="cooperate">
+							<h2>
+								<a href="#">动态</a>
+							</h2>
+						</li>
+					-->
 				</ul>
 			</div>
 		</div>
