@@ -17,7 +17,7 @@
 		<div class="navigation-inner">
 			<div class="navigation-v3" >
 				<ul>
-					<li class="" _t_nav="index" id="test1">
+					<li class="" _t_nav="index">
 						<h2>
 							<a href="index.php">首页</a>
 						</h2>
@@ -54,7 +54,7 @@
 			</div>
 		</div>
 		<div style="float:right; color:#ffffff;font-size:2px; margin-right:10px; height:60px; width:200px;line-height:90px;overflow:hidden;">
-			<?php	include 'countVisitor.php'?>
+			<?php include 'countVisitor.php'?>
 		</div>
 	</div>
 </div>
