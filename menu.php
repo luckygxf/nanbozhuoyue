@@ -43,8 +43,12 @@
 							</h2>
 						</li>
 					-->
+					
 				</ul>
 			</div>
+		</div>
+		<div style="float:right; color:#ffffff;font-size:2px; margin-right:10px; height:60px; width:200px;line-height:90px;overflow:hidden;">
+			<?php	include 'countVisitor.php'?>
 		</div>
 	</div>
 </div>

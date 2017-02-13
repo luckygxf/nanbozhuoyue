@@ -22,9 +22,7 @@
 		<div class="text" id="mainPageText">
 			旅游资源管理与定制
 		</div>
-	</div>
-
-	
+	</div>	
 	<div class="Container">
 		<div class="image" id="bigpics" title=""><img src="temp/four_find/s1f.jpg" /></div>
 		<div class="switch">
