@@ -16,8 +16,9 @@
 	
 	<!---->	
 	<script type="text/javascript" src="js/images.js"></script>
+	
 	<?php include 'menu.php';?>
-
+	
 	<div class="topPicture">	
 		<div class="text" id="mainPageText">
 			旅游资源管理与定制

@@ -4,12 +4,12 @@
 <!--
 	//顶部目录菜单
 -->
-<div class="firstMenu">
+<div class="topMenu" >
 	<div class="firstMenuLogoStyle">
 	</div>
 	<div class="navigation-up">
 		<div class="navigation-inner">
-			<div class="navigation-v3">
+			<div class="navigation-v3" >
 				<ul>
 					<li class="" _t_nav="index" id="test1">
 						<h2>
@@ -51,5 +51,8 @@
 			<?php	include 'countVisitor.php'?>
 		</div>
 	</div>
+</div>
+<div class="fillMenuPosition">
+
 </div>
 
