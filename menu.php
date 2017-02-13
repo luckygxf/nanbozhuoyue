@@ -5,6 +5,12 @@
 	//顶部目录菜单
 -->
 <div class="topMenu" >
+
+	<!--返回顶部的锚点-->
+	<div class="goTop">
+			<span>Top</span>
+		</div>			
+		
 	<div class="firstMenuLogoStyle">
 	</div>
 	<div class="navigation-up">

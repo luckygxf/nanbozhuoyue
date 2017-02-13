@@ -8,14 +8,14 @@
 		<link rel="stylesheet" href="css/secondMenu.css" type="text/css" />
 		<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
 		<script src="js/secondMenu.js" type="text/javascript"></script>
-		<script src="js/autoChangeTopPicSize.js" type="text/javascript"></script>
 		<script src="js/showSecondMenuContent.js" type="text/javascript"></script>
-		
+		<!--<script src="js/autoChangeTopPicSize.js" type="text/javascript"></script>-->
+				
 	</head>
 <body>
 	
 	<?php include 'menu.php';?>
-	<div class="resourceManageTopPic">	
+	<div class="resourceManageTopPic" id="resourceManageTopPic">	
 		<!--
 			<div class="text">
 			visions

@@ -32,3 +32,6 @@ background-position:center;
 }
 /*填充一级菜单漂浮多余的空间*/
 .fillMenuPosition{height:60px;width:100%;}
+/*回到顶部*/
+.goTop {	height: 40px;width: 40px;background: red;border-radius: 50px;position: fixed;top: 90%;right: 3%;display: none;}
+.goTop span {	color: #fff;position: absolute;	top: 12px;left: 8px;}
