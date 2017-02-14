@@ -8,8 +8,8 @@
 
 	<!--返回顶部的锚点-->
 	<div class="goTop">
-			<span>Top</span>
-		</div>			
+			<span style="cursor:hand;">Top</span>
+	</div>			
 		
 	<div class="firstMenuLogoStyle">
 	</div>
