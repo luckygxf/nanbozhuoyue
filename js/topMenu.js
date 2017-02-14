@@ -29,6 +29,8 @@ jQuery(document).ready(function(){
 		$('#'+_nav).stop(true,true).slideUp(200);
 		}, 150);
 	});
+	
+	
 });
 
 //回到顶部

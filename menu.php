@@ -22,7 +22,7 @@
 							<a href="index.php">首页</a>
 						</h2>
 					</li>
-					<li class="" _t_nav="resourcesManage" id="test">
+					<li class="" _t_nav="resourcesManage">
 						<h2>
 							<a href="resourcesManage.php">资源管理VS旅行定制</a>
 						</h2>
@@ -41,21 +41,67 @@
 						<h2>
 							<a href="aboutCompany.php">关于我们</a>
 						</h2>
+					</li>					
+					<li class="" _t_nav="cooperate">
+						<h2>
+							<a href="#">动态</a>
+						</h2>
 					</li>
-					<!--
-						<li class="" _t_nav="cooperate">
-							<h2>
-								<a href="#">动态</a>
-							</h2>
-						</li>
-					-->
+					
 					
 				</ul>
 			</div>
 		</div>
-		<div style="float:right; color:#ffffff;font-size:2px; margin-right:10px; height:60px; width:200px;line-height:90px;overflow:hidden;">
-			<?php include 'countVisitor.php'?>
+		<div class="navigation-down">		
+			<div id="resourcesManage" class="nav-down-menu menu-3 menu-1" style="display: none;" _t_nav="resourcesManage">
+				<div class="navigation-down-inner">
+					<dl style="margin-left: 190px;">
+						<dd>
+							<a hotrep="hp.header.partner.1" href="resourcesManage.php">定制旅行服务</a>
+						</dd>
+					</dl>
+					<dl>
+						<dd>
+							<a hotrep="hp.header.partner.2" href="resourcesManage.php">旅行产品APP研发</a>
+						</dd>
+					</dl>
+					<dl>
+						<dd>
+							<a hotrep="hp.header.partner.3" href="resourcesManage.php">旅游目的地管理</a>
+						</dd>
+					</dl>
+					<dl>
+						<dd>
+							<a hotrep="hp.header.partner.3" href="resourcesManage.php">影视制作海外OPD公关</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
+			<div id="internationalBusiness" class="nav-down-menu menu-3 menu-1" style="display: none;" _t_nav="internationalBusiness">
+				<div class="navigation-down-inner">
+					<dl style="margin-left: 380px;">
+						<dd>
+							<a hotrep="hp.header.partner.1" href="internationalBusiness.php">NOG支持</a>
+						</dd>
+					</dl>
+					<dl>
+						<dd>
+							<a hotrep="hp.header.partner.2" href="internationalBusiness.php">大型活动策划与执行</a>
+						</dd>
+					</dl>
+					<dl>
+						<dd>
+							<a hotrep="hp.header.partner.3" href="internationalBusiness.php">国际商务对接</a>
+						</dd>
+					</dl>
+				</div>
+			</div>
 		</div>
+		<!--
+		<div style="float:right; color:#ffffff;font-size:2px; margin-right:10px; height:60px; width:200px;line-height:90px;overflow:hidden;">
+			<?php //include 'countVisitor.php'?>
+		</div>
+		-->
 	</div>
 </div>
 <div class="fillMenuPosition">
