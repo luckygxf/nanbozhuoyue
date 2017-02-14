@@ -1,7 +1,7 @@
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <!--
 	<script type="text/javascript" src="js/lunbo.js"></script>
--->
+--><script type="text/javascript" src="js/lunbo.js"></script>
 <link href="css/lunbo.css" type="text/css" rel="stylesheet" /><div class="slider-container">
 	<div class="main-slider">          
 		<div class="slide-item" style="display:block;">
