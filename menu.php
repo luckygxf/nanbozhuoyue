@@ -4,16 +4,11 @@
 <!--
 	//顶部目录菜单
 -->
-<div class="topMenu" >
-
-	<!--返回顶部的锚点-->
-	<div class="goTop">
-			<span style="cursor:hand;">Top</span>
-	</div>			
-		
-	<div class="firstMenuLogoStyle">
-	</div>
+<div class="topMenu" >		
+	
 	<div class="navigation-up">
+		<div class="firstMenuLogoStyle">
+		</div>
 		<div class="navigation-inner">
 			<div class="navigation-v3" >
 				<ul>
@@ -41,12 +36,19 @@
 						<h2>
 							<a href="aboutCompany.php">关于我们</a>
 						</h2>
-					</li>					
+					</li>		
 					<li class="" _t_nav="cooperate">
 						<h2>
 							<a href="#">动态</a>
 						</h2>
-					</li>				
+					</li>					
+			
+					<!--	<li class="" _t_nav="cooperate">
+						<h2>
+							<a href="#">动态</a>
+						</h2>
+					</li>	-->
+							
 					
 				</ul>
 			</div>

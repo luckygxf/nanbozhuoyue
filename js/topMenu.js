@@ -13,6 +13,7 @@ jQuery(document).ready(function(){
 	});
 	var qcloud={};
 	$('[_t_nav]').hover(function(){
+		//alert(1);
 		var _nav = $(this).attr('_t_nav');
 		clearTimeout( qcloud[ _nav + '_timer' ] );
 		qcloud[ _nav + '_timer' ] = setTimeout(function(){

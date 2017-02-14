@@ -4,17 +4,17 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 body{line-height:1.333;font-size:12px}
 h1,h2,h3,h4,h5,h6{font-size:100%;font-family:arial,'hiragino sans gb','microsoft yahei','Simsun',sans-serif}
 li{list-style:none}
-.topMenu{position:fixed;top:0px;width:100%;};
+.topMenu{position:fixed;top:0px;width:100%;z-index:9999;};
 .head-v3{position:relative;z-index:100;min-width:100%}
 .head-v3 .navigation-inner{margin:0 auto;width:980px;position:relative}
 .navigation-up{height:60px;background:#27303f}
 .navigation-up .navigation-v3{margin-left:155px;float:left;}
 .navigation-up .navigation-v3 ul{float:left}
 .navigation-up .navigation-v3 li{float:left;font:normal 16px/59px "microsoft yahei";color:#fff}
-.navigation-up .navigation-v3 .nav-up-selected{background:#344157}
+.navigation-up .navigation-v3 .nav-up-selected{background:#344157;z-index:99;}
 .navigation-up .navigation-v3 .nav-up-selected-inpage{background:#202833}
 .navigation-up .navigation-v3 li h2{font-weight:normal;padding:0;margin:0}
-.navigation-up .navigation-v3 li h2 a{padding:0 25px;color:#fff;display:inline-block;height:60px;font-family:"microsoft yahei"}
+.navigation-up .navigation-v3 li h2 a{padding:0 15px;color:#fff;display:inline-block;height:60px;font-family:"microsoft yahei"}
 
 .navigation-down{position:absolute;top:60px;left:0px;width:100%}
 .navigation-down .nav-down-menu{width:100%;margin:0;background:#344157;position:absolute;top:0px}
