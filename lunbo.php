@@ -25,8 +25,8 @@
 		</div>
 	</div>
 	<ul class="thumbs clearfix">
-		<li class="thumb1 curr"><div></div></li>
+		<li class="thumb1"><div></div></li>
 		<li class="thumb2"><div></div></li>
-		<li class="thumb3"><div></div></li>
+		<li class="thumb3  curr"><div></div></li>
 	</ul>
 </div>

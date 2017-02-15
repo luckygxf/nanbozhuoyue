@@ -17,11 +17,9 @@ body{font:12px/180% Arial, Helvetica, sans-serif, "新宋体";background-color:#
 .slide-cont a{color:#fff;font-size:14px;text-decoration:none;text-transform:uppercase;background:url(../images/icon_nav.png) no-repeat 100% 50%;padding-right:16px}
 .thumbs{position:absolute;right:0;bottom:0px;z-index:4;width:100%;height:105px;margin:0;padding:auto 0;;background: url(../images/hui.png);padding:3px auto;}
 .thumbs li{float:right;list-style:none;position:relative;width:200px;*width:19.99%;height:100px;background-repeat:no-repeat;background-position:50% 0;background-size:100%;margin-right:3px;}
-.thumbs li.thumb1{background-image:url("../images/1s.jpg")}
+.thumbs li.thumb1{background-image:url("../images/3s.jpg")}
 .thumbs li.thumb2{background-image:url("../images/2s.jpg")}
-.thumbs li.thumb3{background-image:url("../images/3s.jpg")}
-.thumbs li.thumb4{background-image:url("../images/1s.jpg")}
-.thumbs li.thumb5{background-image:url("../images/2s.jpg")}
+.thumbs li.thumb3{background-image:url("../images/1s.jpg")}
 .thumbs li.curr,.thumbs li:hover{border:3px #ffffff;cursor:pointer}
 .thumbs li div{height:82px;padding-top:18px;}
 .thumbs li.curr i,.thumbs li:hover i{display:block}
