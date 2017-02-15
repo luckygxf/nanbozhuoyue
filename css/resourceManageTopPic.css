@@ -1,9 +1,9 @@
 @CHARSET "UTF-8";
 .resourceManageTopPic{
 	margin:0;
-	height:250px;
+	height:300px;
 	width:100%;
-	background:url('../pictures/resourceManageTopPic.png') no-repeat ;	
+	background:url('../images/1.jpg') no-repeat ;	
 	background-size:100% 250px;
 	-webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;

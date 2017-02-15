@@ -15,7 +15,7 @@
 <body>
 	
 	<?php include 'menu.php';?>
-	<div class="resourceManageTopPic" id="resourceManageTopPic">	
+	<div class="resourceManageTopPic" id="resourceManageTopPic" style="background:url('images/1.jpg') no-repeat;background-size:100% 300px;">	
 		<!--
 			<div class="text">
 			visions
