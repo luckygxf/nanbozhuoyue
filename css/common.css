@@ -192,15 +192,15 @@ body.noEffect .mainVisualCopyInner {
 	
 }
 .mainvMerit {
-	background:url(../images/img_mainv_merit.jpg) 50% 50% no-repeat;
+	background:url(../images/2.jpg) 50% 50% no-repeat;
 	background-size: cover;
 }
 .mainvVision {
-	background:url(../images/img_mainv_vision.jpg) 50% 50% no-repeat;
+	background:url(../images/1.jpg) 50% 50% no-repeat;
 	background-size: cover;
 }
 .mainvMessage {
-	background:url(../images/img_mainv_message.jpg) 50% 50% no-repeat;
+	background:url(../images/3.jpg) 50% 50% no-repeat;
 	background-size: cover;
 }
 .mainvOffice {

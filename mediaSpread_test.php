@@ -25,7 +25,7 @@ document.write('<link href="images/qcss.css" rel="stylesheet" type="text/css" />
 <link href="css/setting.css" rel="stylesheet" type="text/css" />
 <link href="css/common.css" rel="stylesheet" type="text/css" />
 <link href="css/dynamic.css" rel="stylesheet" type="text/css" />
-
+<link href="css/style.css" rel="stylesheet" />
 
 <script type="text/javascript" src="js/jquery.js"></script>
 <script type="text/javascript" src="js/jquery.easingscroll.js"></script>
@@ -36,7 +36,7 @@ document.write('<link href="images/qcss.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript" src="js/baigie.job.motion.js"></script>
 <script type="text/javascript" src="js/baigie.job.sub.js"></script>
 <script type="text/javascript" src="js/baigie.job.social.js"></script>
-<link href="css/style.css" rel="stylesheet" />
+
 </head>
 
 <body>
@@ -47,51 +47,12 @@ document.write('<link href="images/qcss.css" rel="stylesheet" type="text/css" />
 	
 	<div class="gnav">
         <div class="gnavInner">
-          <div class="hLogo"><img src="images/logo1.jpg"  height="33" /></div>          
+			<div class="hLogo"><img src="images/logo1.jpg"  height="33" /></div>          
 			<div>
 				<?php include 'menu.php';?>
 			</div>
         </div>
       </div>
-      <!--导航部分
-	  <div class="gnav">
-        <div class="gnavInner">
-          <div class="hLogo"><img src="images/logo1.jpg"  height="33" /></div>
-          
-          <div class="nav1">
-	<ul>
-		<li><a href="#">首页</a></li>
-		<li><a href="#">资源管理VS旅行定制</a>
-			<ul style="width:240px">
-				<li><a href="#">订制旅行服务</a></li>
-				<li><a href="#">旅行产品APP研发</a></li>
-				<li><a href="#">旅游目的地管理</a></li>
-                <li><a href="#">影视制作海外OPD公关</a></li>
-			</ul>
-		</li>
-		<li><a href="#">国际商务</a>
-			<ul>
-				<li><a href="#">NOG支持</a></li>
-				<li><a href="#">大型活动策划与执行</a></li>
-                <li><a href="#">国际商务对接</a></li>
-			</ul>
-		</li>
-		<li><a href="#">媒体传播</a>
-       
-        </li>
-        
-        <li><a href="#">关于我们</a>
-        
-                                                         
-        </li>
-        <li><a href="#">动态</a>
-        
-        </li>
-	</ul>
-</div>
-        </div>
-      </div>
-	  -->
       <div class="mainVisualCopy scrollChaser"> 
         <!--<div class="mainVisual mainvMessage">
       <div class="mainVisualInner"><span>MESSAGE</span><br />
@@ -102,10 +63,7 @@ document.write('<link href="images/qcss.css" rel="stylesheet" type="text/css" />
       <div class="lnavInner">
         <div class="pagePrev"><a href="#">前</a></div>
         <ul>
-          <li><span><a href="javascript:void(0)" tid="index">订制旅行服务</a></span></li>
-          <li><span><a href="javascript:void(0)" tid="workers">旅行产品APP研发</a></span></li>
-          <li><span><a href="javascript:void(0)" tid="voice">旅游目的地管理</a></span></li>
-          <li><span><a href="javascript:void(0)" tid="tips">影视制作海外OPD公关</a></span></li>
+          <li><span><a href="javascript:void(0)" tid="index">媒体传播</a></span></li>
         </ul>
         <div class="pageNext"><a href="#">次</a></div>
         <div class="currentLine"></div>
@@ -231,9 +189,9 @@ document.write('<link href="images/qcss.css" rel="stylesheet" type="text/css" />
     
   </div>
   
-  <div class="mainVisualCopyInner"><span class="mainText">VISIONS</span> <span class="subText"></span> </div>
+  <div class="mainVisualCopyInner"><span class="mainText">媒体传播</span> <span class="subText"></span> </div>
   <div class="scrollVisualWrapper">
-    <div class="mainVisual mainvVision"></div>
+    <div class="mainVisual mainvMessage"></div>
   </div>
   
 
