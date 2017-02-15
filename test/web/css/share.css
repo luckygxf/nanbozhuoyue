@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+
+
+/* socialBox -------------------------------------------------- */
+
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:400,700");
+@font-face {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/SourceSansPro-Regular.otf");
+  src: url("../font/SourceSansPro-Regular.ttf") format("ttf"), url("../font/SourceSansPro-Regular.otf") format("opentype")
+}
+@font-face {
+  font-family: "NotoSans-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../font/NotoSansCJKjp-demilight.eot");
+  src: local("Noto Sans CJK JP demilight"), url("../font/NotoSansCJKjp-demilight.woff") format("woff"), url("../font/NotoSansCJKjp-demilight.otf") format("opentype")
+}
+@font-face {
+  font-family: "NotoSans-Regular";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../font/NotoSansCJKjp-midium.eot");
+  src: local("Noto Sans CJK JP midium"), url("../font/NotoSansCJKjp-midium.woff") format("woff"), url("../font/NotoSansCJKjp-midium.otf") format("opentype")
+}
+@font-face {
+  font-family: "NotoSans-Regular";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../font/NotoSansCJKjp-Bold.eot");
+  src: local("Noto Sans CJK JP Bold"), url("../font/NotoSansCJKjp-Bold.woff") format("woff"), url("../font/NotoSansCJKjp-Bold.otf") format("opentype")
+}
+
+.l-social-panel ol,
+.l-social-panel ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.l-social-panel {
+  font-size: 88%;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+.l-social-panel {
+  position: fixed;
+  top: 105px;
+  right: 0;
+  width: 60px;
+  text-align: center;
+  box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.2);
+  z-index: 999;
+}
+@media only screen and (max-width: 47.9375em) {
+  .l-social-panel {
+    display: none;
+  }
+}
+.l-social-panel__heading {
+  color: #fff;
+  font-family: "Roboto Slab", sans-serif;
+  background: #3e3a37;
+  font-size: 14px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: normal;
+}
+.l-social-panel__body {
+  background: #fff;
+}
+.l-social-panel__list {
+  border-bottom: 1px solid #eee;
+  height: 50px;
+  font-size: 12px;
+  font-size: .75rem;
+  box-sizing: border-box;
+}
+.l-social-panel__list>a {
+  padding-top: 24px;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.l-social-panel__list.l-social-panel__list_type_fb {
+  background-image: url("../images/icon_sns-panel_facebook.png");
+  background-position: 50% 9px;
+  background-repeat: no-repeat;
+}
+.l-social-panel__list.l-social-panel__list_type_tw {
+  background-image: url("../images/icon_sns-panel_twitter.png");
+  background-position: 50% 9px;
+  background-repeat: no-repeat;
+}
+.l-social-panel__list.l-social-panel__list_type_hatena {
+  background-image: url("../images/icon_sns-panel_hatena.png");
+  background-position: 50% 9px;
+  background-repeat: no-repeat;
+}
+.l-social-panel__list.l-social-panel__list_type_g-plus {
+  background-image: url("../images/icon_sns-panel_google-plus.png");
+  background-position: 50% 9px;
+  background-repeat: no-repeat;
+}
