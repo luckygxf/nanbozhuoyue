@@ -4,7 +4,7 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 body{line-height:1.333;font-size:12px}
 h1,h2,h3,h4,h5,h6{font-size:100%;font-family:arial,'hiragino sans gb','microsoft yahei','Simsun',sans-serif}
 li{list-style:none}
-.topMenu{position:fixed;top:0px;width:100%;z-index:9999;};
+.topMenu{position:fixed;top:0px;width:100%;z-index:9999;height:5%;};
 .head-v3{position:relative;z-index:100;min-width:100%}
 .head-v3 .navigation-inner{margin:0 auto;width:980px;position:relative}
 .navigation-up{height:60px;background:#27303f}

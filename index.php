@@ -15,7 +15,6 @@
 	<script type="text/javascript" src="js/images.js"></script>
 	
 	<?php include 'menu.php';?>
-
 	<?php include 'lunbo.php'?>
 	<?php include 'foot.php'?>
 	

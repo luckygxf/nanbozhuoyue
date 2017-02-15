@@ -35,13 +35,15 @@
 			<img src="pictures/qrcode.png" alt="二维码" />
 		</div>
 	</div>
+	<!--
+	-->
 	<div class="foot bottom">
 		<p>©2017 南博卓越 京ICP证030173号  京公网安备11000002000001号</p>
 	</div>
-	<!--
-	-->
-	
 </div>
+<!--
+	
+-->
 		
 <?php
 //底部内容
