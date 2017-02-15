@@ -1,0 +1,291 @@
+@charset "utf-8";
+
+div.preloadImages {
+	display:none;
+}
+
+div.debugText {
+	background:#fff;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:99999;
+}
+
+div.rootContainer {
+	/*display:none;
+	overflow:hidden;
+	height:100%;*/
+}
+
+div.lnavBg {
+	height:64px;
+	background:#fff;
+	width:100%;
+	position:relative;
+	z-index:119;
+}
+
+/*
+ローディング
+<div class="loadingContainer">
+	<div class="bgGray"></div>
+	<div class="bgGold"></div>
+	<p class="logo"></p>
+</div>
+*/
+
+div.loadingContainer {
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	right:0;
+	z-index:9999;
+	text-align:center;
+	overflow:hidden;
+}
+
+div.loadingContainerInner {
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+}
+
+div.loadingContainer div.bgGray,
+div.loadingContainer div.bgGold {
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+}
+
+div.loadingContainer div.bgGray {
+	background:#333;
+}
+
+div.loadingContainer div.bgGold {
+	background:#ACA56C;
+	display:none;
+}
+
+div.loadingCenterContainer {
+	position:absolute;
+	width:1px;
+	height:1px;
+}
+
+div.loadingContainer .logo {
+	position:absolute;
+	background:url(../img/loading_logo.png) no-repeat center center;
+	width:58px;
+	height:24px;
+	opacity:0;
+}
+
+div.loadingContainer .circle {
+	position:absolute;
+	width:1px;
+	height:1px;
+	top:-5px;
+	left:-2px;
+}
+
+div.loadingContainer .circleDot {
+	background:url(../img/circle_dot.png) no-repeat;
+	width:8px;
+	height:8px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+/*
+サブ画面のTable
+*/
+
+.mainContents table.subContentsTable {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+.mainContents table.subContentsTable td {
+	/*padding-right:100px;*/
+	/*background:#ccc;*/
+	vertical-align:top;
+}
+
+
+
+/*
+サブ画面のフェードカバー
+*/
+
+div.loadingCover {
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background:#fff;
+	z-index:99999;
+	opacity:1;
+	display:block;
+}
+
+div.subInner { font-family:"微软雅黑"
+	
+}
+
+/*
+Topのフェードボックス
+*/
+
+.fadeBox {
+	opacity:0;
+}
+
+
+div.scrollVisualWrapper {
+	width:100%;
+	text-align:center;
+}
+
+div.scrollWrapper {
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:5555;
+}
+
+div.mainVisual {
+	padding: 0;
+	min-width: 960px;
+	height: 500px;
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	border-top:none;
+}
+
+body.noEffect div.mainVisual {
+	position:relative;
+	top:auto;
+	height:300px;
+}
+
+
+/**********************************/
+
+
+div.scrollCreator {
+	width:1px;
+}
+
+div.transitionCover {
+	width:100%;
+	height:100%;
+	background:#fff;
+	position:absolute;
+	z-index:101;
+}
+
+p.sptCopy1,
+p.sptCopy2,
+p.sptCopy3 {
+	clear:left;
+}
+
+/*p.sptCopy2 {
+	display:inline-block;
+}*/
+
+p.sptCopy1 span,
+p.sptCopy2 span,
+p.sptCopy3 span {
+	display:block;
+	overflow:hidden;
+	white-space:nowrap;
+}
+
+/*p.sptCopy1 span,
+p.sptCopy2 span,
+p.sptCopy3 span {
+	display:block;
+	margin-right:15px;
+	float:left;
+}*/
+
+div.boxImgOfficeSpace {
+	height:300px;
+	width:100%;
+}
+
+div.mainVisualContainer {
+	/*position:absolute;*/
+	position: fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	max-height:780px;
+}
+
+body.noEffect div.mainVisualContainer {
+	position: absolute;	
+}
+
+div.imgKeyVisual span {
+	display:block;
+	width: 100%;
+	height: 100%;
+}
+
+div.cloneContainer {
+	display:none;
+	
+}
+
+nav.lnav div.currentLine {
+	position:absolute;
+	font-size:0;
+	line-height:0;
+	width:25px;
+	height:2px;
+	background:#afa86f;
+	display:none;
+}
+
+div.dummyLine,
+div.dummyLine1,
+div.dummyLine2,
+div.dummyLine3 {
+	position:fixed;
+	width:100%;
+	height:1px;
+	background:#FC0A0E;
+	top:200px;
+	z-index:9999;
+	
+	display:none;
+}
+
+div.dummyLine1 { background:rgba(255,0,4,1.00); }
+div.dummyLine2 { background:rgba(0,255,4,1.00); }
+div.dummyLine3 { background:rgba(0,0,255,1.00); }
+
+div.bgWhite {
+	background:#fff;
+	position:relative;
+	z-index:125;
+	
+	display:inline-block;
+	width:100%;
+	height:auto;
+}

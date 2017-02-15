@@ -1,0 +1,88 @@
+.nav1 {
+	margin: 0px auto; 
+	text-align: center;
+	float:right;
+	padding-right:60px;
+
+}
+
+.nav1 ul ul {
+	display: none;
+}
+
+	.nav1 ul li:hover > ul {
+		display: block;
+	}
+
+
+.nav1 ul {
+	
+	list-style: none;
+	position: relative;
+	display: inline-table;
+
+}
+	.nav1 ul:after {
+		content: ""; clear: both; display: block;
+	}
+
+	.nav1 ul li {
+   float:left;
+   font-size:20px; 
+   font-family:"fangheijianti","微软雅黑";
+   background:url(../images/fenge.jpg) right center no-repeat;
+  
+	}
+		.nav1 ul li:hover {
+			background-image:url(../images/fenge.jpg) right center no-repeat;
+			
+		}
+			.nav1 ul li a:hover {
+				color: #adadad;
+			}
+		
+		.nav1 ul li a {
+			display: block; padding:0 30px; 
+			color: #fff; text-decoration: none;
+			 line-height:65px;
+			
+		}
+			
+		
+	.nav1 ul ul {
+		background: #333; border-radius: 0px; padding: 0;
+		position: absolute; top: 100%;
+	
+
+	
+		
+	}
+		.nav1 ul ul li {
+			float: none; 
+			border-top: 1px solid #6b727c;
+			 position: relative;
+			 background-image:none;
+			 min-width:150px;
+			 height:40px;
+			 line-height:40px;
+		
+		
+		}
+			.nav1 ul ul li a {
+				padding: 0;
+				color: #fff;
+				font-size:14px;
+				height:40px;
+			 line-height:40px;
+			}	
+				.nav1 ul ul li a:hover {
+					background: #000;
+					background-image:none;
+					height:40px;
+			 line-height:40px;
+				}
+		
+	.nav1 ul ul ul {
+		position: absolute; left: 100%; top:0;
+	}
+		
