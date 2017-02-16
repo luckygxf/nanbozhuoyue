@@ -79,6 +79,9 @@ document.write('<link href="images/qcss.css" rel="stylesheet" type="text/css" />
       </main>
       
       <!-- Start all inner contents. modify k.kubonaka -->
+	  <?php
+		
+	  ?>
       
       <div class="cloneContainer"> 
         <!-- 旅游订制服务 -->
