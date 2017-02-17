@@ -14,27 +14,27 @@
 				<ul>
 					<li class="" _t_nav="index">
 						<h2>
-							<a href="index.php" style="text-decoration:none;">首页</a>
+							<a href="index.php" style="text-decoration:none;">首页</a> |
 						</h2>
 					</li>
 					<li class="" _t_nav="resourcesManage">
 						<h2>
-							<a href="resourcesManage_test.php" style="text-decoration:none;">资源管理VS旅行定制</a>
+							<a href="resourcesManage_test.php" style="text-decoration:none;">资源管理VS旅行定制</a> |
 						</h2>
 					</li>
 					<li class="" _t_nav="internationalBusiness">
 						<h2>
-							<a href="internationalBusiness_test.php" style="text-decoration:none;">国际商务</a>
+							<a href="internationalBusiness_test.php" style="text-decoration:none;">国际商务</a> |
 						</h2>
 					</li>
 					<li class="" _t_nav="mediaSpread">
 						<h2>
-							<a href="mediaSpread_test.php" style="text-decoration:none;">媒体传播</a>
+							<a href="mediaSpread_test.php" style="text-decoration:none;">媒体传播</a> |
 						</h2>
 					</li>
 					<li class="" _t_nav="aboutCompany">
 						<h2>
-							<a href="aboutCompany_test.php" style="text-decoration:none;">关于我们</a>
+							<a href="aboutCompany_test.php" style="text-decoration:none;">关于我们</a> |
 						</h2>
 					</li>		
 					<li class="" _t_nav="dynamic">
