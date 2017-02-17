@@ -6,7 +6,7 @@ baigiejob.global.addPackage("sub");
 var TABLE_WIDTH = 760;
 
 (function() {
-	
+	console.log('start');
 	//import classes
 	var EventDispatcher = baigiejob.base.EventDispatcher;
 	var Sprite = baigiejob.motion.Sprite;
@@ -760,9 +760,13 @@ var TABLE_WIDTH = 760;
 	 */
 	this.SubMain.prototype.setAnchorEvent = function(atag, anchorName, args) {
 		var scope = this;
+		console.log(1);
 		atag.bind("click", function() {
-			var position = $(anchorName).offset().top;
-			scope.doAnchorScroll(position, args);
+			if($(anchorName).offset()){
+				var position = $(anchorName).offset().top;
+				scope.doAnchorScroll(position, args);
+			}
+			
 		});
 	};
 	
@@ -1203,4 +1207,44 @@ var TABLE_WIDTH = 760;
 
 baigiejob.complete = function() {
 	new baigiejob.sub.SubMain();
+	console.log('complete');
+	
+	showMore();
 };
+function showMore(){
+	console.log('showMore1.');
+	
+}
+//自定义函数执行
+function showMore(){
+	var styleTextOld = '<p style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;"> 1;">';
+	var styleTextNew = '<p style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;">';				
+	var length = styleTextOld.length;
+	console.log('length =' + length);
+	var box = document.getElementById("box");
+    var text = box.innerHTML;
+	var textContent = text.substr(length);
+	console.log('textContent = ' + textContent);
+	text = styleTextNew + textContent;
+	console.log('text = ' + text);
+    var newBox = document.createElement("div");
+    //var btn = document.createElement("a");
+	var btn = document.getElementById('a_showmore');
+    newBox.innerHTML = text.substring(0,200);
+    btn.innerHTML = text.length > 200 ? "显示全部" : "";
+    btn.href = "###";
+    btn.onclick = function(){
+        if (btn.innerHTML == "显示全部"){ 
+            btn.innerHTML = "收起"; 
+            newBox.innerHTML = text; 
+        }else{ 
+            btn.innerHTML = "显示全部"; 
+            newBox.innerHTML = text.substring(0,200); 
+        } 
+    }
+    box.innerHTML = ""; 
+    box.appendChild(newBox); 
+    //box.appendChild(btn); 
+}
+
+

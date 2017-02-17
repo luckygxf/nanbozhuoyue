@@ -20,6 +20,7 @@
     $(document).ready(function(){
         var oHeight = $('.nei').height();//获取里面div的高度
         oldHeight=oHeight;//把里面div的高度赋值给外面的div
+		console.log('oHeight = ' + oHeight);
         var newHeight = $("#box").css({height:"100px"});//这个是加载后给外面div设置的一个高度(显示内容的区域)
         if(oHeight<100){//如果里面div的高度小于100的话也就是说内容不多的时候把更多按钮隐藏
             $('.showa').css('display','none')
