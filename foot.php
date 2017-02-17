@@ -6,9 +6,9 @@
 
 <div class="foot">
 	<div class="foot text">
-		<p>010-57208195</p>
-		<p>邮箱:nbzy@gmmg.com</p>
-		<p>QQ:123456789</p>
+		<h3 style="color:#FFFFFF;font-size:28px;" >010-57208195</h3>
+		邮箱:nbzy@gmmg.com<br/>
+		QQ:123456789
 	</div>
 	<div class="foot links">
 		<div>
@@ -20,11 +20,11 @@
 		</div>
 		<div >
 			合作伙伴 
-			<img src="pictures/partner1.png" class="foot partner"/>
-			<img src="pictures/partner2.png" class="foot partner"/>
-			<img src="pictures/partner3.png" class="foot partner"/>
-			<img src="pictures/partner4.png" class="foot partner"/>
-			<img src="pictures/partner5.png" class="foot partner"/>
+			<img src="pictures/d1.png" class="foot partner"/>
+			<img src="pictures/d2.png" class="foot partner"/>
+			<img src="pictures/d3.png" class="foot partner"/>
+			<img src="pictures/d4.png" class="foot partner"/>
+			<img src="pictures/d5.png" class="foot partner"/>
 		</div>
 	</div>
 	<div class="foot connectus">

@@ -2,10 +2,10 @@
 /*
 
 */
-.foot .text{float:left;text-align:center;width:30%;padding:10px 0;}
-.foot .links{float:left;	width:40%;text-align:center;padding:10px 0;}
+.foot .text{float:left;margin-left:10%;width:20%;padding:20px 0;line-height:30px;font-size:14px;}
+.foot .links{float:left;	width:40%;text-align:center;padding:20px 0;height:30px;line-height:30px;}
 
-.foot .connectus{float:left;	width:30%;text-align:center;	/**/}
+.foot .connectus{float:left;	width:30%;text-align:center;padding:20px 0;	/**/}
 
 .foot .links ul{	list-style-type:none;}
 
