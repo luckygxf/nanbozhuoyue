@@ -164,6 +164,8 @@ $(document).ready(function(){
 	<a href="#pageHeader">返回顶部</a>
 </div>
 
+<?php //include 'foot.php'?>
+
 <div class="foot">
 	<div class="foot1">
 		<div class="lxfs">
