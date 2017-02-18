@@ -27,7 +27,7 @@
 	}
 	//执行增、删、改sql语句
 	function executeChangeDataSql($sql){
-		global $condb;
+		global $link;
 		//mysql_query("set names 'utf8'");
 		$link->query("set_names 'utf8'");
 		$link->query($sql);

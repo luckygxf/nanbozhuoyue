@@ -152,14 +152,48 @@ $(document).ready(function(){
 				<section class="innerBlock">
 					<p>公司深耕出境旅游市场多年，足迹涉及海外各国。我们将以资深旅游行业经验结合专业APP研发团队，为您打造最符合当今旅游市场消费习惯，最适合您的APP产品。
 					</p>
-				</section>	  
+				</section>
+				<!--旅游产品APP研发 -->
+					<?php 
+						$querySql = "select * from devapp";
+						$queryResult = executeQuerySql($querySql);			
+						while($row = $queryResult->fetch_array(MYSQLI_BOTH)){
+					?>
+						<section class="innerBlock">
+							<h3 class="dzbt"><?php echo $row['title']; ?></h3>
+							<span class="dzmo"><a href="#" class="showa" name="a_showmore">更多详细内容</a></span>
+							<div class="clear"></div>
+							<div name="box">
+								<p><?php echo $row['content']; ?></p>
+							</div>
+					 <?php
+						}
+					 ?>
+				<!-- end 旅游产品APP研发-->
 			</div>		
 			<!-- 旅游目的地管理 -->
 			<div class="subInner voice">
 				<header class="mainBlockHeader">
 					<p>作为旅游目的地营销公司，南博卓越在海外拥有多年目的地管理经验，并深谙中国市场的发展规律与环境，拥有与中国旅游分销商、旅游媒体、综合服务商等良好的合作经验，可根据目的地对中国旅游市场发展的需求，制定发展方案及实施计划，帮助目的地迅速拓展市场份额。
 					</p>		
-				</header>	  
+				</header>
+					<!--旅游目的地管理 -->
+					<?php 
+						$querySql = "select * from traveldestinationmanage";
+						$queryResult = executeQuerySql($querySql);			
+						while($row = $queryResult->fetch_array(MYSQLI_BOTH)){
+					?>
+						<section class="innerBlock">
+							<h3 class="dzbt"><?php echo $row['title']; ?></h3>
+							<span class="dzmo"><a href="#" class="showa" name="a_showmore">更多详细内容</a></span>
+							<div class="clear"></div>
+							<div name="box">
+								<p><?php echo $row['content']; ?></p>
+							</div>
+					 <?php
+						}
+					 ?>
+					<!-- end 旅游目的地管理-->				
 			</div>	
 			<!-- 影视海外OPD公关 -->
 			<div class="subInner tips">
@@ -167,6 +201,23 @@ $(document).ready(function(){
 					<p>公司深耕出境旅游市场多年，专注打造差异化、主题明确的原创旅行产品。我们的足迹遍布欧洲，美洲、澳洲、东南亚和非洲，与各个国家各个景点和当地人建立了深厚的联系。有足够的能力为中国的影视剧拍摄、栏目制作以及平面拍摄等视觉制作提供一系列的专业的海外制作咨询、协调、策划、以及所有落地资源的对接和服务。
 					</p>
 				</header>	  
+				<!--影视海外OPD公关 -->
+					<?php 
+						$querySql = "select * from fileopd";
+						$queryResult = executeQuerySql($querySql);			
+						while($row = $queryResult->fetch_array(MYSQLI_BOTH)){
+					?>
+						<section class="innerBlock">
+							<h3 class="dzbt"><?php echo $row['title']; ?></h3>
+							<span class="dzmo"><a href="#" class="showa" name="a_showmore">更多详细内容</a></span>
+							<div class="clear"></div>
+							<div name="box">
+								<p><?php echo $row['content']; ?></p>
+							</div>
+					 <?php
+						}
+					 ?>
+					<!-- end 影视海外OPD公关-->		
 			</div>
 		</div>
 		<article class="boxArticleEntry"></article>  

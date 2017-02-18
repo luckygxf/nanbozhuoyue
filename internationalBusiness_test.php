@@ -96,21 +96,72 @@ $(document).ready(function(){
 				<section class="innerBlock">
 					<p>从公关创意到媒介传播，从策划管理到活动执行，我们为客户提供高度专业和不断创新的系统服务，为客户完成在国外从商务活动策划、渠道公关、媒介传播、公关活动、会议会展等一系列旨在提升企业品牌知名度、美誉度一整套市场行为。
 					</p>
-				</section>				
+				</section>
+				<!--大型活动策划与执行 -->
+				<?php 
+					$querySql = "select * from bigactivity";
+					$queryResult = executeQuerySql($querySql);			
+					while($row = $queryResult->fetch_array(MYSQLI_BOTH)){
+				?>
+					<section class="innerBlock">
+						<h3 class="dzbt"><?php echo $row['title']; ?></h3>
+						<span class="dzmo"><a href="#" class="showa" name="a_showmore">更多详细内容</a></span>
+						<div class="clear"></div>
+						<div name="box">
+							<p><?php echo $row['content']; ?></p>
+						</div>
+				 <?php
+					}
+				 ?>
+				<!-- end 大型活动策划与执行-->	
 			</div>	
 			<!-- 国际商务对接 -->
 			<div class="subInner workers">	
 				<section class="innerBlock">
 					<p>公司多年来一直扎根于非洲大陆。从母公司到投资人，数十年来累积的人脉与资源从方方面面渗透于非洲大陆的多个国家与地区。自公司成立以来，帮助多个中国市级政府、企业等机构与非洲当地政府、企业等进行了高品质、精准的商务对接。
 					</p>
-				</section>	  
+				</section>
+				<!--国际商务对接 -->
+				<?php 
+					$querySql = "select * from internationalbusiness";
+					$queryResult = executeQuerySql($querySql);			
+					while($row = $queryResult->fetch_array(MYSQLI_BOTH)){
+				?>
+					<section class="innerBlock">
+						<h3 class="dzbt"><?php echo $row['title']; ?></h3>
+						<span class="dzmo"><a href="#" class="showa" name="a_showmore">更多详细内容</a></span>
+						<div class="clear"></div>
+						<div name="box">
+							<p><?php echo $row['content']; ?></p>
+						</div>
+				 <?php
+					}
+				 ?>
+				<!-- end 国际商务对接-->					
 			</div>		
 			<!-- NGO支持 -->
 			<div class="subInner voice">
 				<header class="mainBlockHeader">
 					<p>扎根于非洲，回报于非洲。非洲大陆的很多地方仍旧是世界上最贫穷与落后的地区。公司秉承着母公司一贯的文化沿革，在自己的能力范围内一直尽力的回馈非洲，并为世界NGO组织在当地的慈善活动提供相应的支持，尽自己的一份力量。
 					</p>		
-				</header>	  
+				</header>
+				<!--NGO支持 -->
+				<?php 
+					$querySql = "select * from ngosupport";
+					$queryResult = executeQuerySql($querySql);			
+					while($row = $queryResult->fetch_array(MYSQLI_BOTH)){
+				?>
+					<section class="innerBlock">
+						<h3 class="dzbt"><?php echo $row['title']; ?></h3>
+						<span class="dzmo"><a href="#" class="showa" name="a_showmore">更多详细内容</a></span>
+						<div class="clear"></div>
+						<div name="box">
+							<p><?php echo $row['content']; ?></p>
+						</div>
+				 <?php
+					}
+				 ?>
+				<!-- end NGO支持-->				
 			</div>	
 		</div>
 		<article class="boxArticleEntry"></article>  

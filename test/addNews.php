@@ -10,7 +10,7 @@
 	//insert data to mysql
 	//executeChangeDataSql()
 	
-	echo $insertSql.'<br/>';
+	//echo $insertSql.'<br/>';
 	//插入200条数据
 	$count = 10;
 	for($i = 1; $i < $count; $i++){
@@ -18,7 +18,7 @@
 		$content = $_POST['content'];
 		$title = $title.$i;
 		$content = $content.$i;
-		$insertSql = 'insert into customTravelService(title, content) values("'.$title.'","'.$content.'");';
+		$insertSql = 'insert into mediaspread(title, content) values("'.$title.'","'.$content.'");';
 		executeChangeDataSql($insertSql);
 	}
 	

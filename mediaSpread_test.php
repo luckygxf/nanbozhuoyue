@@ -90,20 +90,30 @@ $(document).ready(function(){
   <!-- Start all inner contents. modify k.kubonaka -->
   
 		<div class="cloneContainer"> 
-			<!-- 旅游订制服务 -->
+			<!-- 媒体传播与平台支持 -->
 			<div class="subInner index">	  
 				<section class="innerBlock">
 					<p>南博卓越成立以来，与国内、国外很多知名媒体建立了深厚的友谊，并一直与诸多媒体保持着良好的合作关系。有鉴于此，南博才能始终为客户提供优良的市场、品牌策划宣传等整合服务。
 					</p>
-				</section>	  
-			</div>	
-			<!-- 旅游产品APP研发 -->
-			<div class="subInner workers">	
-				<section class="innerBlock">
-					<p>公司深耕出境旅游市场多年，足迹涉及海外各国。我们将以资深旅游行业经验结合专业APP研发团队，为您打造最符合当今旅游市场消费习惯，最适合您的APP产品。
-					</p>
-				</section>	  
-			</div>		
+				</section>
+					<!--媒体传播与平台支持 -->
+					<?php 
+						$querySql = "select * from mediaspread";
+						$queryResult = executeQuerySql($querySql);			
+						while($row = $queryResult->fetch_array(MYSQLI_BOTH)){
+					?>
+						<section class="innerBlock">
+							<h3 class="dzbt"><?php echo $row['title']; ?></h3>
+							<span class="dzmo"><a href="#" class="showa" name="a_showmore">更多详细内容</a></span>
+							<div class="clear"></div>
+							<div name="box">
+								<p><?php echo $row['content']; ?></p>
+							</div>
+					 <?php
+						}
+					 ?>
+					<!-- end 媒体传播与平台支持-->					
+			</div>			
 		</div>
 		<article class="boxArticleEntry"></article>  
 	</div>
