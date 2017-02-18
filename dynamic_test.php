@@ -75,7 +75,8 @@ $(document).ready(function(){
 		<div class="lnavInner">
 			<div class="pagePrev"><a href="#">前</a></div>
 				<ul>
-				  <li><span><a href="javascript:void(0)" tid="index">媒体传播与平台支持</a></span></li>
+				  <li><span><a href="javascript:void(0)" tid="index">资讯动态</a></span></li>
+				  <li><span><a href="javascript:void(0)" tid="workers">项目合作</a></span></li>
 				</ul>
 			<div class="pageNext"><a href="#">次</a></div>
 			<div class="currentLine"></div>
@@ -87,33 +88,39 @@ $(document).ready(function(){
 		<section class="mainBlock"> </section>
 		</main>
   
-  <!-- Start all inner contents. modify k.kubonaka -->
-  
-		<div class="cloneContainer"> 
-			<!-- 旅游订制服务 -->
-			<div class="subInner index">	  
-				<section class="innerBlock">
-					<p>南博卓越成立以来，与国内、国外很多知名媒体建立了深厚的友谊，并一直与诸多媒体保持着良好的合作关系。有鉴于此，南博才能始终为客户提供优良的市场、品牌策划宣传等整合服务。
-					</p>
-				</section>	  
-			</div>	
-			<!-- 旅游产品APP研发 -->
-			<div class="subInner workers">	
-				<section class="innerBlock">
-					<p>公司深耕出境旅游市场多年，足迹涉及海外各国。我们将以资深旅游行业经验结合专业APP研发团队，为您打造最符合当今旅游市场消费习惯，最适合您的APP产品。
-					</p>
-				</section>	  
-			</div>		
+  <!-- Start all inner contents. modify k.kubonaka -->		
+        <div class="cloneContainer">
+			<!-- 资讯动态 -->
+			<div class="subInner index">
+				<header class="mainBlockHeader">
+						<h1 class="headlineLv01">博茨与北京旅游签约仪式</h1>
+						<p>南博卓越成立以来，与国内、国外很多知名媒体建立了深厚的友谊，并一直与诸多媒体保持着良好的合作关系。有鉴于此，南博才能始终为客户提供优良的市场、品牌策划宣传等整合服务。
+						</p>
+				</header>
+				<div class="boxImgGallery">
+					<div><img src="images/p1.jpg" width="743" height="262" /></div>
+					<div><img src="images/p2.jpg" width="743" height="262" /></div>
+				</div>        
+			</div>        
+			<!-- 项目合作 -->
+			<div class="subInner workers">       
+				<header class="mainBlockHeader">
+					<div></div>
+						<h1 class="headlineLv01">项目合作</h1>
+						<p>南博卓越成立以来，与国内、国外很多知名媒体建立了深厚的友谊，并一直与诸多媒体保持着良好的合作关系。有鉴于此，南博才能始终为客户提供优良的市场、品牌策划宣传等整合服务。
+						</p>            
+			  </header>
+			</div>
 		</div>
 		<article class="boxArticleEntry"></article>  
 	</div>
 	</div>
 	<div class="mainVisualCopyInner">
-		<span class="mainText">媒体传播</span>
+		<span class="mainText">动态资讯</span>
 		<span class="subText"></span>
 	</div>
 	<div class="scrollVisualWrapper">
-		<div class="mainVisual mainvMessage"></div>
+		<div class="mainVisual mainvVision"></div>
 	</div>
 </div>
 <div id="goToPageTop">

@@ -39,7 +39,7 @@
 					</li>		
 					<li class="" _t_nav="dynamic">
 						<h2>
-							<a href="dynamic.php" style="text-decoration:none;">动态</a>
+							<a href="dynamic_test.php" style="text-decoration:none;">动态</a>
 						</h2>
 					</li>					
 			
