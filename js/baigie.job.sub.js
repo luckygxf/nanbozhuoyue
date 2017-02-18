@@ -1208,7 +1208,6 @@ var TABLE_WIDTH = 760;
 baigiejob.complete = function() {
 	new baigiejob.sub.SubMain();
 	console.log('complete');
-	
 	showMore();
 };
 function showMore(){
@@ -1217,16 +1216,15 @@ function showMore(){
 }
 //自定义函数执行
 function showMore(){
-	var styleTextOld = '<p style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;"> 1;">';
-	var styleTextNew = '<p style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;">';				
+	var styleTextOld = '<p style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;">';					
+	var styleTextNew = '<p style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;">';			
 	var length = styleTextOld.length;
-	console.log('length =' + length);
 	var box = document.getElementById("box");
     var text = box.innerHTML;
-	var textContent = text.substr(length);
-	console.log('textContent = ' + textContent);
+	var indexOfCh = findCharInStr(text, '>');	
+	console.log("text = " + text);
+	var textContent = text.substr(indexOfCh + 1);
 	text = styleTextNew + textContent;
-	console.log('text = ' + text);
     var newBox = document.createElement("div");
     //var btn = document.createElement("a");
 	var btn = document.getElementById('a_showmore');
@@ -1245,6 +1243,15 @@ function showMore(){
     box.innerHTML = ""; 
     box.appendChild(newBox); 
     //box.appendChild(btn); 
+}
+function findCharInStr(str, ch){
+	
+	for(var i = 0; i < str.length; i++){
+		if(ch == str.charAt(i))
+			return i;
+	}
+	
+	return -1;
 }
 
 
