@@ -5,16 +5,17 @@
 	$dbUser = "root";
 	$dbPassword = "";
 	$dbName = "nbzy";
-	$condb = mysql_connect($dbUrl, $dbUser, $dbPassword);
-	if(!$condb){
+
+	$link = mysqli_connect($dbUrl, $dbUser, $dbPassword, $dbName);
+
+	if(!$link){
 		echo "connect mysql failed.<br/>";
-		//die('Could not connect: ' . mysql_error());
 	} 
 	//执行查询sql语句
 	function executeQuerySql($sql){
-		global $dbName, $condb;
-		mysql_select_db($dbName, $condb);
-		$result = mysql_query($sql);
+		global $link;
+		
+		$result = $link->query($sql);
 		/*
 		while($row = mysql_fetch_array($result)){
 			echo $row['id']." ".$row['name'];
@@ -25,9 +26,22 @@
 	}
 	//执行增、删、改sql语句
 	function executeChangeDataSql($sql){
-		global $dbName, $condb;
-		mysql_select_db($dbName, $condb);
-		mysql_query($sql);
+		global $condb;
+
+		$link->query($sql);
 	}	
+	
+	//显示数据库查询结果,用于测试查询
+	function listAllQueryResult($queryResult){
+		while($row = mysql_fetch_array($queryResult)){
+			echo $row[0]." ".$row[1];
+			echo "<br/>";
+		}
+	}
+	
+	$sqlQuery = 'select * from test';
+	
+	$sql = 'insert into news(title, content) values("aaa","dddd");';
+	//executeChangeDataSql(sql);
 	
 ?>

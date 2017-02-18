@@ -1210,39 +1210,8 @@ baigiejob.complete = function() {
 	console.log('complete');
 	showMore();
 };
-function showMore(){
-	console.log('showMore1.');
-	
-}
+
 //自定义函数执行
-function showMore(){
-	var styleTextOld = '<p style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;">';					
-	var styleTextNew = '<p style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;">';			
-	var length = styleTextOld.length;
-	var box = document.getElementById("box");
-    var text = box.innerHTML;
-	var indexOfCh = findCharInStr(text, '>');	
-	var textContent = text.substr(indexOfCh + 1);
-	text = styleTextNew + textContent;
-    var newBox = document.createElement("div");
-    //var btn = document.createElement("a");
-	var btn = document.getElementById('a_showmore');
-    newBox.innerHTML = text.substring(0,200);
-    btn.innerHTML = text.length > 200 ? "显示全部" : "";
-    btn.href = "###";
-    btn.onclick = function(){
-        if (btn.innerHTML == "显示全部"){ 
-            btn.innerHTML = "收起"; 
-            newBox.innerHTML = text; 
-        }else{ 
-            btn.innerHTML = "显示全部"; 
-            newBox.innerHTML = text.substring(0,200); 
-        } 
-    }
-    box.innerHTML = ""; 
-    box.appendChild(newBox); 
-    //box.appendChild(btn); 
-}
 function findCharInStr(str, ch){
 	
 	for(var i = 0; i < str.length; i++){
@@ -1251,6 +1220,48 @@ function findCharInStr(str, ch){
 	}
 	
 	return -1;
+}
+
+function showMore(){
+	var items = document.getElementsByName("box");
+	var box = new Array();
+	var text = new Array();
+	var newBox = new Array();
+	var btn = new Array();
+	var indexOfCh = new Array();
+	btn = document.getElementsByName('a_showmore');
+	
+	for(var i = 0; i < items.length; i++){
+		var styleTextNew = '<p style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;">';	
+		box[i] = items[i];
+		text[i] = box[i].innerHTML;
+		indexOfCh[i] = findCharInStr(text[i], '>');	
+		var textContent = text[i].substr(indexOfCh[i] + 1);
+		text[i] = styleTextNew + textContent;
+		
+		newBox[i] = document.createElement("div");
+		newBox[i].innerHTML = text[i].substring(0,200);
+		btn[i].innerHTML = text[i].length > 200 ? "显示全部" : "";
+		btn[i].href = "###";
+		btn[i].index = i;
+		//console.log('i = ' + i);
+		btn[i].onclick = function(event){
+			var btnIndex =event.target.index;
+			console.log("btn.index = " + btn.index);
+			//console.log('btn.index = ' + btn[i].index);
+			if (btn[btnIndex].innerHTML == "显示全部"){ 
+				btn[btnIndex].innerHTML = "收起"; 
+				newBox[btnIndex].innerHTML = text[btnIndex]; 
+			}else{ 
+				btn[btnIndex].innerHTML = "显示全部"; 
+				newBox[btnIndex].innerHTML = text[btnIndex].substring(0,200); 
+			} 
+		}
+		box[i].innerHTML = ""; 
+		box[i].appendChild(newBox[i]);  
+		
+	}
+	
 }
 
 
