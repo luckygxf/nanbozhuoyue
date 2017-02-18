@@ -52,7 +52,7 @@ $(document).ready(function(){
 <body>
 <!--include php files-->
 <div style = "display:none;">
-	<?php include 'utils/dbhelper.php';?>
+	<?php include 'utils/dbHelper.php';?>
 </div>
 <div class="rootContainer">
 	<div class="wrapper">
