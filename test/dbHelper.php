@@ -1,6 +1,6 @@
 <?php
 	//-------------------------provide some db method---------------------
-	$dbUrl = "localhost:3306";
+	$dbUrl = "127.0.0.1";
 	$dbPort = "3306";
 	$dbUser = "root";
 	$dbPassword = "";
@@ -14,7 +14,8 @@
 	//执行查询sql语句
 	function executeQuerySql($sql){
 		global $link;
-		
+		//mysql_query("set character set 'utf8'");	
+		$link->query("set character set 'utf8'");	
 		$result = $link->query($sql);
 		/*
 		while($row = mysql_fetch_array($result)){
@@ -27,7 +28,8 @@
 	//执行增、删、改sql语句
 	function executeChangeDataSql($sql){
 		global $condb;
-
+		//mysql_query("set names 'utf8'");
+		$link->query("set_names 'utf8'");
 		$link->query($sql);
 	}	
 	
