@@ -1222,7 +1222,6 @@ function showMore(){
 	var box = document.getElementById("box");
     var text = box.innerHTML;
 	var indexOfCh = findCharInStr(text, '>');	
-	console.log("text = " + text);
 	var textContent = text.substr(indexOfCh + 1);
 	text = styleTextNew + textContent;
     var newBox = document.createElement("div");

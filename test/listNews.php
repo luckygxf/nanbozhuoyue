@@ -8,13 +8,12 @@
 	*/
 	$querySql = 'select * from news;';
 	$queryResult = executeQuerySql($querySql);
-	//listAllQueryResult($queryResult);
 ?>
 <div id="list">
 <?php
 	$index = 0;
-	//遍历所有条目并输出
-	while($row = mysql_fetch_array($queryResult)){
+	//遍历所有条目并输出$row=$result->fetch_row();
+	while($row = $queryResult->fetch_array(MYSQLI_BOTH)){
 ?>
 	<div id="item<?php echo $index ?>" name='item'>
 		<h1>
