@@ -127,8 +127,8 @@ $(document).ready(function(){
 	<a href="#pageHeader">返回顶部</a>
 </div>
 
-<?php //include 'foot.php'?>
-
+<?php include 'foot1.php'?>
+<!--
 <div class="foot">
 	<div class="foot1">
 		<div class="lxfs">
@@ -164,5 +164,6 @@ $(document).ready(function(){
 		京ICP备11017824号-4 / 京ICP证130164号  Copyright © 2006-2016 ZCOOL
 	</div>
 </div>
+-->
 </body>
 </html>
