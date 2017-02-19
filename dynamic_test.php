@@ -92,24 +92,43 @@ $(document).ready(function(){
         <div class="cloneContainer">
 			<!-- 资讯动态 -->
 			<div class="subInner index">
-				<header class="mainBlockHeader">
-						<h1 class="headlineLv01">博茨与北京旅游签约仪式</h1>
-						<p>南博卓越成立以来，与国内、国外很多知名媒体建立了深厚的友谊，并一直与诸多媒体保持着良好的合作关系。有鉴于此，南博才能始终为客户提供优良的市场、品牌策划宣传等整合服务。
-						</p>
-				</header>
-				<div class="boxImgGallery">
-					<div><img src="images/p1.jpg" width="743" height="262" /></div>
-					<div><img src="images/p2.jpg" width="743" height="262" /></div>
-				</div>        
+				<!--资讯动态 -->
+				<?php 
+					$querySql = "select * from news";
+					$queryResult = executeQuerySql($querySql);			
+					while($row = $queryResult->fetch_array(MYSQLI_BOTH)){
+				?>
+					<section class="innerBlock">
+						<h3 class="dzbt"><?php echo $row['title']; ?></h3>
+						<span class="dzmo"><a href="#" class="showa" name="a_showmore">更多详细内容</a></span>
+						<div class="clear"></div>
+						<div name="box">
+							<p><?php echo $row['content']; ?></p>
+						</div>
+				 <?php
+					}
+				 ?>
+				<!-- end 资讯动态-->	
 			</div>        
 			<!-- 项目合作 -->
 			<div class="subInner workers">       
-				<header class="mainBlockHeader">
-					<div></div>
-						<h1 class="headlineLv01">项目合作</h1>
-						<p>南博卓越成立以来，与国内、国外很多知名媒体建立了深厚的友谊，并一直与诸多媒体保持着良好的合作关系。有鉴于此，南博才能始终为客户提供优良的市场、品牌策划宣传等整合服务。
-						</p>            
-			  </header>
+				<!--项目合作 -->
+				<?php 
+					$querySql = "select * from cooperateproject";
+					$queryResult = executeQuerySql($querySql);			
+					while($row = $queryResult->fetch_array(MYSQLI_BOTH)){
+				?>
+					<section class="innerBlock">
+						<h3 class="dzbt"><?php echo $row['title']; ?></h3>
+						<span class="dzmo"><a href="#" class="showa" name="a_showmore">更多详细内容</a></span>
+						<div class="clear"></div>
+						<div name="box">
+							<p><?php echo $row['content']; ?></p>
+						</div>
+				 <?php
+					}
+				 ?>
+				<!-- end 项目合作-->	
 			</div>
 		</div>
 		<article class="boxArticleEntry"></article>  

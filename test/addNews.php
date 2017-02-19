@@ -18,7 +18,7 @@
 		$content = $_POST['content'];
 		$title = $title.$i;
 		$content = $content.$i;
-		$insertSql = 'insert into mediaspread(title, content) values("'.$title.'","'.$content.'");';
+		$insertSql = 'insert into cooperateproject(title, content) values("'.$title.'","'.$content.'");';
 		executeChangeDataSql($insertSql);
 	}
 	
