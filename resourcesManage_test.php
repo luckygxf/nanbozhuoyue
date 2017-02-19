@@ -100,15 +100,6 @@ $(document).ready(function(){
 					</p>
 				</section>	  
 				
-				<section class="innerBlock">
-					<h3 class="dzbt">旅游订制项目标题</h3>
-					<span class="dzmo"><a href="#" class="showa" name="a_showmore">更多详细内容</a></span>
-					<div class="clear"></div>
-					<div name="box">
-						<p>1旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服务说明文字旅游订制服
-						</p>
-					</div> 
-				</section>
 				<!--test query data from mysql -->
 					<?php 
 						$querySql = "select * from customtravelservice";
