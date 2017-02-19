@@ -7,17 +7,17 @@ li{list-style:none}
 .topMenu{position:fixed;top:0px;width:100%;z-index:9999;height:5%;};
 .head-v3{position:relative;z-index:100;min-width:100%}
 .head-v3 .navigation-inner{margin:0 auto;width:980px;position:relative}
-.navigation-up{height:60px;background:#27303f}
+.navigation-up{height:60px;background:#333333}
 .navigation-up .navigation-v3{margin-left:155px;float:left;}
 .navigation-up .navigation-v3 ul{float:left}
 .navigation-up .navigation-v3 li{float:left;font:normal 16px/59px "microsoft yahei";color:#fff}
-.navigation-up .navigation-v3 .nav-up-selected{background:#344157;z-index:99;}
-.navigation-up .navigation-v3 .nav-up-selected-inpage{background:#202833}
+.navigation-up .navigation-v3 .nav-up-selected{background:#333333;z-index:99;}
+.navigation-up .navigation-v3 .nav-up-selected-inpage{background:#333333}
 .navigation-up .navigation-v3 li h2{font-weight:normal;padding:0;margin:0}
 .navigation-up .navigation-v3 li h2 a{padding:0 15px;color:#fff;display:inline-block;height:60px;font-family:"microsoft yahei"}
 
 .navigation-down{position:absolute;top:60px;left:0px;width:100%}
-.navigation-down .nav-down-menu{width:100%;margin:0;background:#344157;position:absolute;top:0px}
+.navigation-down .nav-down-menu{width:100%;margin:0;background:#333333;position:absolute;top:0px}
 .navigation-down .nav-down-menu .navigation-down-inner{margin:auto;width:1200px;position:relative}
 .navigation-down .nav-down-menu dl{float:left;margin:18px 80px 18px 0}
 .navigation-down .menu-1 dl{margin:20px 80px 25px 0}
@@ -32,6 +32,3 @@ background-position:center;
 }
 /*填充一级菜单漂浮多余的空间*/
 .fillMenuPosition{height:60px;width:100%;}
-/*回到顶部*/
-.goTop {	height: 40px;width: 40px;background: red;border-radius: 50px;position: fixed;top: 90%;right: 3%;display: none;}
-.goTop span {	color: #fff;position: absolute;	top: 12px;left: 8px;}
