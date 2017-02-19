@@ -16,7 +16,7 @@
 	
 	<?php include 'menu.php';?>
 	<?php include 'lunbo.php'?>
-	<?php include 'foot_girl.php'?>
+	<?php include 'foot.php'?>
 	
 </body>
 

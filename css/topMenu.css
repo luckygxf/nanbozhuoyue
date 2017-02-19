@@ -4,11 +4,11 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
 body{line-height:1.333;font-size:12px}
 h1,h2,h3,h4,h5,h6{font-size:100%;font-family:arial,'hiragino sans gb','microsoft yahei','Simsun',sans-serif}
 li{list-style:none}
-.topMenu{position:fixed;top:0px;width:100%;z-index:9999;height:5%;}
-.head-v3{position:relative;z-index:100;min-width:1000px;}
+.topMenu{position:fixed;top:0px;min-width:1000px;z-index:9999;height:5%;width:100%;}
+.head-v3{position:relative;z-index:100;width:980px;}
 .head-v3 .navigation-inner{margin:0 auto;width:980px;position:relative}
 .navigation-up{height:60px;background:#333333}
-.navigation-up .navigation-v3{margin-left:155px;float:left;}
+.navigation-up .navigation-v3{margin-left:400px;float:left;}
 .navigation-up .navigation-v3 ul{float:left}
 .navigation-up .navigation-v3 li{float:left;font:normal 16px/59px "microsoft yahei";color:#fff}
 .navigation-up .navigation-v3 .nav-up-selected{background:#333333;z-index:99;}
