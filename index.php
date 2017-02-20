@@ -1,10 +1,10 @@
-<html>
+<html style="min-width:1000px;">
 	<head>
 		<title>南博卓越</title>
 		<link rel="shortcut icon" href="pictures/favicon.ico">
 		
 	</head>
-<body>
+<body style="min-width:1000px;">
 
 	<link rel="stylesheet" href="css/main.css" type="text/css" />
 	<link href="css/pics.css" rel="stylesheet" type="text/css" />
