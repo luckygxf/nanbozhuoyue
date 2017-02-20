@@ -102,7 +102,7 @@ $(document).ready(function(){
 						<h3 class="dzbt"><?php echo $row['title']; ?></h3>
 						<span class="dzmo"><a href="#" class="showa" name="a_showmore">更多详细内容</a></span>
 						<div class="clear"></div>
-						<div name="box">
+						<div name="box" class="list_content">
 							<p><?php echo $row['content']; ?></p>
 						</div>
 				 <?php
@@ -122,7 +122,7 @@ $(document).ready(function(){
 						<h3 class="dzbt"><?php echo $row['title']; ?></h3>
 						<span class="dzmo"><a href="#" class="showa" name="a_showmore">更多详细内容</a></span>
 						<div class="clear"></div>
-						<div name="box">
+						<div name="box" class="list_content">
 							<p><?php echo $row['content']; ?></p>
 						</div>
 				 <?php
