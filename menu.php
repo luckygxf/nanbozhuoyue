@@ -56,7 +56,7 @@
 		<div class="navigation-down">		
 			<div id="resourcesManage" class="nav-down-menu menu-3 menu-1" style="display: none;" _t_nav="resourcesManage">
 				<div class="navigation-down-inner">
-					<dl style="margin-left: 190px;">
+					<dl style="margin-left: 100px;">
 						<dd>
 							<a hotrep="hp.header.partner.1" href="resourcesManage_test.php" style="text-decoration:none;">定制旅行服务</a>
 						</dd>
