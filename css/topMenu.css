@@ -8,7 +8,7 @@ li{list-style:none}
 .head-v3{position:relative;z-index:100;width:980px;}
 .head-v3 .navigation-inner{margin:0 auto;width:980px;position:relative}
 .navigation-up{height:60px;background:#333333}
-.navigation-up .navigation-v3{margin-left:300px;float:left;}
+.navigation-up .navigation-v3{margin-left:170px;float:left;}
 .navigation-up .navigation-v3 ul{float:left}
 .navigation-up .navigation-v3 li{float:left;font:normal 16px/59px "microsoft yahei";color:#fff}
 .navigation-up .navigation-v3 .nav-up-selected{background:#333333;z-index:99;}
@@ -30,5 +30,3 @@ li{list-style:none}
 .firstMenuLogoStyle{width:125px;height:60px;float:left;margin-left:70px;background:url('../pictures/logo.png') no-repeat;background-size:125px 25px;
 background-position:center;
 }
-/*填充一级菜单漂浮多余的空间*/
-.fillMenuPosition{height:60px;width:100%;}
