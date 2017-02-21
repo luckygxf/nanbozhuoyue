@@ -15,8 +15,8 @@ if($action == 'ajax'){
 	//query data from mysql
 	$querySqlCount = "SELECT COUNT(*) AS numrows FROM customtravelservice";
 	$count_query = executeQuerySql($querySqlCount);
-	$numrows = $count_query->fetch_array(MYSQLI_BOTH)[0];
-	
+	$numrowsResult = $count_query->fetch_array(MYSQLI_BOTH);
+	$numrows = $numrowsResult[0];
 
 	$total_pages = ceil($numrows/$per_page);
 	
