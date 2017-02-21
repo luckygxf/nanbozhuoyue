@@ -101,23 +101,14 @@ $(document).ready(function(){
 				</section>	  
 				
 				<!--test query data from mysql -->
-					<?php 
-						$querySql = "select * from customtravelservice";
-						$queryResult = executeQuerySql($querySql);			
-						while($row = $queryResult->fetch_array(MYSQLI_BOTH)){
-					?>
-						<section class="innerBlock">
-							<h3 class="dzbt"><?php echo $row['title']; ?></h3>
-							<span class="dzmo"><a href="#" class="showa" name="a_showmore">更多详细内容</a></span>
-							<div class="clear"></div>
-							<div name="box" class="list_content">
-								<p><?php echo $row['content']; ?></p>
-							</div>
-					 <?php
-						}
-					 ?>
+					
 				<!-- end query data from mysql-->
-				<section class="innerBlock">
+				<!--page test-->
+				<?php //include 'utils/page_util.php'?>
+				<div class="outer_div"></div>
+				<!----end page test-->
+				<!--
+					<section class="innerBlock">
 					<p>
 						<div class="yema">
 							<a href="#">首页</a> 
@@ -136,7 +127,9 @@ $(document).ready(function(){
 							<input name="" type="text"  class="tiaozhuan"/>页	 
 						</div>
 					</p> 
-				</section>	 
+				</section>
+					
+				-->	 
 			</div>	
 			<!-- 旅游产品APP研发 -->
 			<div class="subInner workers">	

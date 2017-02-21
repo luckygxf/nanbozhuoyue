@@ -1,0 +1,16 @@
+<script>function load(page){	$("#loader").fadeIn('slow');	$.ajax({		url:'../utils/page_util.php?action=ajax&page='+page,		success:function(data){			$(".outer_div").html(data).fadeIn('slow');			$("#loader").fadeOut('slow');		}	})}	$(document).ready(showMore());	function showMore(){	console.log("showmore running.");	var items = document.getElementsByName("box");	var box = new Array();	var text = new Array();	var newBox = new Array();	var btn = new Array();	var indexOfCh = new Array();	btn = document.getElementsByName('a_showmore');	for(var i = 0; i < items.length; i++){		var styleTextNew = '<p style="transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1); opacity: 1;">';			box[i] = items[i];		if(btn[i].innerHTML == '显示全部')			continue;		text[i] = box[i].innerHTML;		indexOfCh[i] = findCharInStr(text[i], '>');			var textContent = text[i].substr(indexOfCh[i] + 1);		text[i] = styleTextNew + textContent;		console.log('text[i] = ' + textContent);				//newBox[i] = document.createElement("div");		//newBox[i].innerHTML = text[i].substring(0,200);		box[i].innerHTML = text[i].substring(0,200);		btn[i].innerHTML = textContent.length > 200 ? "显示全部" : "";		btn[i].href = "###";		btn[i].index = i;		//console.log('i = ' + i);		btn[i].onclick = function(event){			var btnIndex =event.target.index;			console.log("btn.index = " + btn.index);			//console.log('btn.index = ' + btn[i].index);			if (btn[btnIndex].innerHTML == "显示全部"){ 				btn[btnIndex].innerHTML = "收起"; 				box[btnIndex].innerHTML = text[btnIndex]; 			}else{ 				btn[btnIndex].innerHTML = "显示全部"; 				box[btnIndex].innerHTML = text[btnIndex].substring(0,200); 			} 		}		//box[i].innerHTML = ""; 		//box[i].appendChild(newBox[i]);  			}}</script><?phpfunction paginate($reload, $page, $tpages, $adjacents) {	$prevlabel = "&lsaquo; 上一页";	$nextlabel = "下一页 &rsaquo;";	$out = '<section class="innerBlock"><p><div class="yema">';
+	// previous label
+	if($page==1) {		$out.= "<span>$prevlabel</span>";	} else if($page==2) {		$out.= "<a href='javascript:void(0);' onclick='load(1)'>$prevlabel</a>";	}else {		$out.= "<a href='javascript:void(0);' onclick='load(".($page-1).")'>$prevlabel</a>";
+	}
+		// first label	if($page>($adjacents+1)) {		$out.= "<a href='javascript:void(0);' onclick='load(1)'>1</a>";	}	// interval	if($page>($adjacents+2)) {		$out.= "...\n";	}
+	// pages
+	$pmin = ($page>$adjacents) ? ($page-$adjacents) : 1;	$pmax = ($page<($tpages-$adjacents)) ? ($page+$adjacents) : $tpages;	for($i=$pmin; $i<=$pmax; $i++) {		if($i==$page) {			$out.= "<span class='current'>$i</span>";		}else if($i==1) {			$out.= "<a href='javascript:void(0);' onclick='load(1)'>$i</a>";		}else {			$out.= "<a href='javascript:void(0);' onclick='load(".$i.")'>$i</a>";		}	}
+	// interval
+	if($page<($tpages-$adjacents-1)) {		$out.= "...\n";	}
+	// last
+	if($page<($tpages-$adjacents)) {		$out.= "<a href='javascript:void(0);' onclick='load($tpages)'>$tpages</a>";	}
+	// next
+	if($page<$tpages) {		$out.= "<a href='javascript:void(0);' onclick='load(".($page+1).")'>$nextlabel</a>";	}else {		$out.= "<span>$nextlabel</span>";	}
+	$out.= "</div></p></section>";
+	return $out;
+}?>

@@ -1207,9 +1207,27 @@ var TABLE_WIDTH = 760;
 
 baigiejob.complete = function() {
 	new baigiejob.sub.SubMain();
-	console.log('complete');
-	showMore();
+	console.log('complete');	
+	page();
+	//showMore();
 };
+//分页
+function page(){
+	$(document).ready(function(){
+		load(1);
+	});
+
+	function load(page){
+		$("#loader").fadeIn('slow');
+		$.ajax({
+			url:'../utils/page_util.php?action=ajax&page='+page,
+			success:function(data){
+				$(".outer_div").html(data).fadeIn('slow');
+				$("#loader").fadeOut('slow');
+			}
+		})
+	}
+}
 
 //自定义函数执行
 function findCharInStr(str, ch){
