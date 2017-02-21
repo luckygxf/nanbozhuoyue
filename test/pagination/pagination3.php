@@ -1,3 +1,4 @@
+<?php include 'dbHelper.php'?>
 <?php
 /*************************************************************************
 php easy :: pagination scripts set - Version Three
@@ -7,7 +8,8 @@ Web Site:    http://www.phpeasycode.com
 Contact:     webmaster@phpeasycode.com
 *************************************************************************/
 function paginate_three($reload, $page, $tpages, $adjacents) {
-	
+	queryDataAndEcho($page-1, $tpages);
+	$tpages = queryItemCount();
 	$prevlabel = "&lsaquo; Prev";
 	$nextlabel = "Next &rsaquo;";
 	
@@ -70,5 +72,31 @@ function paginate_three($reload, $page, $tpages, $adjacents) {
 	$out.= "</div>";
 	
 	return $out;
+}
+
+function queryDataAndEcho($page, $tpages){
+	$itemTotalCountSql = "select count(*) from test;";
+	$itemTotalCount = executeQuerySql($itemTotalCountSql)->fetch_array(MYSQLI_BOTH)[0];
+	$countOfPerpage = 10;
+	//echo "itemTotalCount = ".$itemTotalCount.'<br/>';
+	
+	$tpages = $itemTotalCount / $countOfPerpage;
+	$queryOffset = $page * $countOfPerpage;
+	if($queryOffset >= $itemTotalCount){
+		$queryOffset = ($tpages - 1) * $countOfPerpage;
+	}
+	
+	$querySql = "select * from test limit ".$queryOffset.','.$countOfPerpage;
+	$queryResult = executeQuerySql($querySql);
+	
+	while($row = $queryResult->fetch_array(MYSQLI_BOTH)){
+		echo $row[id]."   ".$row['name'].'<br/>';
+	}
+}
+
+function queryItemCount(){
+	$itemTotalCountSql = "select count(*) from test;";
+	$itemTotalCount = executeQuerySql($itemTotalCountSql)->fetch_array(MYSQLI_BOTH)[0];
+	return (int)($itemTotalCount / 10);
 }
 ?>
