@@ -116,27 +116,7 @@ $(document).ready(function(){
 					 <?php
 						}
 					 ?>
-				<!-- end query data from mysql-->
-				<section class="innerBlock">
-					<p>
-						<div class="yema">
-							<a href="#">首页</a> 
-							<a href="#">上一页</a> 
-							<a href="#">1</a> 
-							<a href="#">2</a> 
-							<a href="#">3</a> 
-							<a href="#">下一页</a> 
-							<a href="#">尾页</a>
-						</div>
-						<div class="yema2" style=" display:none">
-							<a href="#">1</a> 
-							<a href="#">2</a> 
-							<a href="#">3</a> 
-							<a href="#">4</a>....go
-							<input name="" type="text"  class="tiaozhuan"/>页	 
-						</div>
-					</p> 
-				</section>	 
+				<!-- end query data from mysql--> 
 			</div>	
 			<!-- 旅游产品APP研发 -->
 			<div class="subInner workers">	
