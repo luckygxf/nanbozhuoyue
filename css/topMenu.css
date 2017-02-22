@@ -8,7 +8,7 @@ li{list-style:none}
 .head-v3{position:relative;z-index:100;width:100%;}
 .head-v3 .navigation-inner{margin:0 auto;width:100%;position:relative;float:right;}
 .navigation-up{height:60px;background:#333333}
-.navigation-up .navigation-v3{margin-left:170px;float:right;margin-right:20px;}
+.navigation-up .navigation-v3{margin-left:170px;float:right;margin-right:80px;}
 .navigation-up .navigation-v3 ul{float:left}
 .navigation-up .navigation-v3 li{float:left;font:normal 16px/59px "microsoft yahei";color:#fff;font-size:19px;}
 .navigation-up .navigation-v3 .nav-up-selected{background:#333333;z-index:99;}
@@ -27,6 +27,6 @@ li{list-style:none}
 .navigation-down .menu-2 dd a,.navigation-down .menu-3 dd a{color:#fff;font:normal 19px "microsoft yahei"}
 
 /*一级菜单logo样式 */
-.firstMenuLogoStyle{width:125px;height:60px;float:left;background:url('../pictures/logo.png') no-repeat;background-size:125px 25px;
-background-position:center;
+.firstMenuLogoStyle{width:135px;height:60px;float:left;background:url('../pictures/logo.png') no-repeat;background-size:135px 33px;
+background-position:center;margin-left:80px;
 }
