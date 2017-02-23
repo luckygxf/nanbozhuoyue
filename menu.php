@@ -63,12 +63,12 @@
 					</dl>
 					<dl>
 						<dd>
-							<a hotrep="hp.header.partner.2" href="resourcesManage_test.php" style="text-decoration:none;">旅行产品APP研发</a>
+							<a hotrep="hp.header.partner.2" href="resourcesManage_test.php" style="text-decoration:none;">旅游目的地管理</a>
 						</dd>
 					</dl>
 					<dl>
 						<dd>
-							<a hotrep="hp.header.partner.3" href="resourcesManage_test.php" style="text-decoration:none;">旅游目的地管理</a>
+							<a hotrep="hp.header.partner.3" href="resourcesManage_test.php" style="text-decoration:none;">旅行产品APP研发</a>
 						</dd>
 					</dl>
 					<dl>

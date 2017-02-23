@@ -76,8 +76,8 @@ $(document).ready(function(){
 			<div class="pagePrev"><a href="#">前</a></div>
 				<ul>
 				  <li><span><a href="javascript:void(0)" tid="index">订制旅行服务</a></span></li>
-				  <li><span><a href="javascript:void(0)" tid="workers">旅行产品APP研发</a></span></li>
-				  <li><span><a href="javascript:void(0)" tid="voice">旅游目的地管理</a></span></li>
+				  <li><span><a href="javascript:void(0)" tid="workers">旅游目的地管理</a></span></li>
+				  <li><span><a href="javascript:void(0)" tid="voice">旅行产品APP研发</a></span></li>
 				  <li><span><a href="javascript:void(0)" tid="tips">影视制作海外OPD公关</a></span></li>
 				</ul>
 			<div class="pageNext"><a href="#">次</a></div>
@@ -118,8 +118,33 @@ $(document).ready(function(){
 					 ?>
 				<!-- end query data from mysql--> 
 			</div>	
+			<!-- 旅游目的地管理 -->
+			<div class="subInner workers">
+				<header class="mainBlockHeader">
+					<p>作为旅游目的地营销公司，南博卓越在海外拥有多年目的地管理经验，并深谙中国市场的发展规律与环境，拥有与中国旅游分销商、旅游媒体、综合服务商等良好的合作经验，可根据目的地对中国旅游市场发展的需求，制定发展方案及实施计划，帮助目的地迅速拓展市场份额。
+					</p>		
+				</header>
+					<!--旅游目的地管理 -->
+					<?php 
+						$querySql = "select * from traveldestinationmanage";
+						$queryResult = executeQuerySql($querySql);			
+						while($row = $queryResult->fetch_array(MYSQLI_BOTH)){
+					?>
+						<section class="innerBlock">
+							<h3 class="dzbt"><?php echo $row['title']; ?></h3>
+							<span class="dzmo"><a href="#" class="showa" name="a_showmore">更多详细内容</a></span>
+							<div class="clear"></div>
+							<div name="box" class="list_content">
+								<p><?php echo $row['content']; ?></p>
+							</div>
+						</section>
+					 <?php
+						}
+					 ?>
+					<!-- end 旅游目的地管理-->				
+			</div>	
 			<!-- 旅游产品APP研发 -->
-			<div class="subInner workers">	
+			<div class="subInner voice">	
 				<section class="innerBlock">
 					<p>公司深耕出境旅游市场多年，足迹涉及海外各国。我们将以资深旅游行业经验结合专业APP研发团队，为您打造最符合当今旅游市场消费习惯，最适合您的APP产品。
 					</p>
@@ -142,30 +167,7 @@ $(document).ready(function(){
 					 ?>
 				<!-- end 旅游产品APP研发-->
 			</div>		
-			<!-- 旅游目的地管理 -->
-			<div class="subInner voice">
-				<header class="mainBlockHeader">
-					<p>作为旅游目的地营销公司，南博卓越在海外拥有多年目的地管理经验，并深谙中国市场的发展规律与环境，拥有与中国旅游分销商、旅游媒体、综合服务商等良好的合作经验，可根据目的地对中国旅游市场发展的需求，制定发展方案及实施计划，帮助目的地迅速拓展市场份额。
-					</p>		
-				</header>
-					<!--旅游目的地管理 -->
-					<?php 
-						$querySql = "select * from traveldestinationmanage";
-						$queryResult = executeQuerySql($querySql);			
-						while($row = $queryResult->fetch_array(MYSQLI_BOTH)){
-					?>
-						<section class="innerBlock">
-							<h3 class="dzbt"><?php echo $row['title']; ?></h3>
-							<span class="dzmo"><a href="#" class="showa" name="a_showmore">更多详细内容</a></span>
-							<div class="clear"></div>
-							<div name="box" class="list_content">
-								<p><?php echo $row['content']; ?></p>
-							</div>
-					 <?php
-						}
-					 ?>
-					<!-- end 旅游目的地管理-->				
-			</div>	
+			
 			<!-- 影视海外OPD公关 -->
 			<div class="subInner tips">
 				<header class="mainBlockHeader">
