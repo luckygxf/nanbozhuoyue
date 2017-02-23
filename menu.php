@@ -79,20 +79,20 @@
 				</div>
 			</div>
 			<div id="internationalBusiness" class="nav-down-menu menu-3 menu-1" style="display: none;" _t_nav="internationalBusiness">
-				<div class="navigation-down-inner">
+				<div class="navigation-down-inner">					
 					<dl style="margin-left: 380px;">
 						<dd>
-							<a hotrep="hp.header.partner.1" href="internationalBusiness_test.php" style="text-decoration:none;">NOG支持</a>
+							<a hotrep="hp.header.partner.1" href="internationalBusiness_test.php" style="text-decoration:none;">大型活动策划与执行</a>
 						</dd>
 					</dl>
 					<dl>
 						<dd>
-							<a hotrep="hp.header.partner.2" href="internationalBusiness_test.php" style="text-decoration:none;">大型活动策划与执行</a>
+							<a hotrep="hp.header.partner.2" href="internationalBusiness_test.php" style="text-decoration:none;">国际商务对接</a>
 						</dd>
 					</dl>
 					<dl>
 						<dd>
-							<a hotrep="hp.header.partner.3" href="internationalBusiness_test.php" style="text-decoration:none;">国际商务对接</a>
+							<a hotrep="hp.header.partner.3" href="internationalBusiness_test.php" style="text-decoration:none;">NOG支持</a>
 						</dd>
 					</dl>
 				</div>
