@@ -92,7 +92,7 @@
 					</dl>
 					<dl>
 						<dd>
-							<a hotrep="hp.header.partner.3" href="internationalBusiness_test.php" style="text-decoration:none;">NOG支持</a>
+							<a hotrep="hp.header.partner.3" href="internationalBusiness_test.php" style="text-decoration:none;">NGO支持</a>
 						</dd>
 					</dl>
 				</div>
